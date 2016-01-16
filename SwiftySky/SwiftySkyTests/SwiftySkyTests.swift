@@ -10,6 +10,10 @@ import XCTest
 @testable import SwiftySky
 import SkyScraper
 
+/*
+xsltproc --html -xincludestyle -xinclude SwiftySky/XSLT/main.xsl SwiftySkyTests/fandango.html | jsonlint
+*/
+
 class SwiftySkyTests: XCTestCase {
     func testXSLTScraping() {
         let bundle = NSBundle(forClass: self.classForCoder)
