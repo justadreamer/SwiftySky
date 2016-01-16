@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SkyScraper
 
 class ViewController: UIViewController {
 
