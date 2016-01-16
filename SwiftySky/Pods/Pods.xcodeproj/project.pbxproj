@@ -7,146 +7,148 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00B0A7C87F93F483B07F699076684276 /* SkyXSLTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 993BCFB6EA17F3AC83D817874CA8D73F /* SkyXSLTransformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00DE9F3CE1A7241FBB2F4094C5C0A782 /* numbersInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = 1667E97C71E0E6C7B4E40A90E60AFF4E /* numbersInternals.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		016DBFC5196AACBA9645EBC9E9E6CB42 /* Mantle.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C42874BF6667F04D4442F26BD80984 /* Mantle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		02D0D9B2F29AD9538187FF4CB3C41A48 /* extra.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A4477CEAA023384434433CB449C3CE2 /* extra.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		035CB94F73CE0FA6F1E15A1997F8A4E6 /* SkyScraper.h in Headers */ = {isa = PBXBuildFile; fileRef = C7AC112318A2869A3C91A12BF14E401A /* SkyScraper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05BA1C48466130DBD1A58D22732E00B0 /* libxslt.h in Headers */ = {isa = PBXBuildFile; fileRef = FC94FDD6DDD3F4D01D988EB764B873D8 /* libxslt.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		07BB90E89B09D609637AA6E1CDD5957E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400D06AE00BF4BE3A864BB70BA4AEEE9 /* Foundation.framework */; };
 		081A50535FCDF50D0118223459790167 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A79B7E6BD99AC67C7124407607B5AF1A /* UIImageView+AFNetworking.m */; };
-		0AABB6341870F4EAB746E912E56845F3 /* SkyJSONResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = EAFA7E5E9AD7F662BD38BEE84B5A8F16 /* SkyJSONResponseSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0B1512A379CAC3456769DFC3C5EA11AF /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = A6433591F1E3A957495B83D09848D066 /* EXTScope.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		0E15F927D5D991F1A1ECCB84BA6AEAC3 /* NSError+MTLModelException.m in Sources */ = {isa = PBXBuildFile; fileRef = 621D5C359B0A120232782FA7B4C2CC77 /* NSError+MTLModelException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		124566996CB678741CD6E9E93870542E /* pattern.h in Headers */ = {isa = PBXBuildFile; fileRef = D3CEF50D67FAA6418FB390A87BB5BA64 /* pattern.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1389748BE24F9D2223187CB20D9A020C /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DA749A05B0ABED96C9DFC54102AD44 /* AFURLRequestSerialization.m */; };
-		13A0AD66B02C906ED7A8632CC9893DFC /* SkyResponseSerializer+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EB7885D81D0F25BD19463125EA490D3 /* SkyResponseSerializer+Protected.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		168387A67301B29037CC1779AAE81ADC /* NSDictionary+MTLMappingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B20D2509A0A6D563186B416A8235F15 /* NSDictionary+MTLMappingAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		17B725442545074DFA0B043C1EA2693A /* xslt.h in Headers */ = {isa = PBXBuildFile; fileRef = 564A88282FA81A0D06237EAFC7165BA8 /* xslt.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		18F2F242A55547AEBD072A48A4F7E2C8 /* templates.h in Headers */ = {isa = PBXBuildFile; fileRef = 93CA3A975D1C1526B0E26EB3EF64E77C /* templates.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1A15E1DAB1BF63371AE5ADFAED9169E5 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C44B4C1AFE7DD62893F545AC624B1 /* UIRefreshControl+AFNetworking.m */; };
-		1D537B1187178333CB7C46293EFB5F55 /* documents.h in Headers */ = {isa = PBXBuildFile; fileRef = BB3E37F075164F7BAD0191A515567CD4 /* documents.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1E56D93033C917DABE653604BC98DE69 /* MTLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9190900DC7F5B6919F6EEFAFC99FF1 /* MTLModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		1EA06503C7AF1CA5E13950E3E7D7830E /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 667E9A4932198109DF0E7EFC43386774 /* AFNetworkActivityIndicatorManager.m */; };
+		1EB3D02042F2D23F50D61FE1B1C85ED2 /* templates.h in Headers */ = {isa = PBXBuildFile; fileRef = A86C0B8DF5913A9D7DF199B6D552586A /* templates.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1EE7E59A0E38FA64C6B181B3E67020ED /* xsltutils.h in Headers */ = {isa = PBXBuildFile; fileRef = BEF9520BAB849B933A6D98EC2F1A72A9 /* xsltutils.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1F90CF4F0D5790A9B99B9939FE51D07D /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2358BD64ED2D5BD9F5274FC82A974FD5 /* Mantle.framework */; };
 		1FF7D105E994B6A61896279C58B368F5 /* NSDictionary+MTLManipulationAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0F25FDDE523FF0CBD136B7D8D730A0 /* NSDictionary+MTLManipulationAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		246DDD776CBC5972A6E8AA733CFB33F9 /* MTLReflection.h in Headers */ = {isa = PBXBuildFile; fileRef = A5E6C718FF0E96659700B0273EAADE33 /* MTLReflection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		249F8D2AFFB62A8A31782416565EA64A /* exslt.h in Headers */ = {isa = PBXBuildFile; fileRef = D426D88B6018A70D39CDF570156460FD /* exslt.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		2794C30C60771142D4B97965630DF201 /* NSObject+MTLComparisonAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBE8E6A93EACD030EB1FC262C4730F6 /* NSObject+MTLComparisonAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		290353FFD70C6FED0E88244849792541 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DFD1E4D3ACB335EEF5ECE8C47BB1104 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F749C49AEBF36949CBE4779DCED4CE0 /* NSValueTransformer+MTLInversionAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D4F83C13753324CE5A823CEF3A38D73 /* NSValueTransformer+MTLInversionAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30E98A9545A6229A3CD7A535207217BF /* xsltexports.h in Headers */ = {isa = PBXBuildFile; fileRef = 54075CDA779BA34A3FD8284CEC7E8E7C /* xsltexports.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		328B47E07872FA89BA6B15A792DA2B50 /* NSValueTransformer+MTLInversionAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 353D7F41EE04DDEB9E8F759CA913B8E9 /* NSValueTransformer+MTLInversionAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		32BE0FB08D9ECD2974197D862E320E36 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 07747D3789DFF0C4190D29880EEA06A3 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		333C2421BD65D8B56A4E0D5CC3E2A178 /* SkyXSLTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = E3C7C89E705A9AE6DA88464EEC097927 /* SkyXSLTransformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34BEE08ED8F8B9B3B939D4D732CFBEFE /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A5B4FF0DCF12857EE79A39C24C13C02 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A7FE81FF3C97DDFA9F5D7B692369683 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E7DD8EFF4E72C21CD1068F9EA9EDC99 /* SystemConfiguration.framework */; };
-		3E021CACB7BA1CB926D4BD5F0AC95F52 /* trio.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D54A803DB3DB8FFBB24A61E0EA1E38B /* trio.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3D454A67199D147A7906283A565670B5 /* exsltexports.h in Headers */ = {isa = PBXBuildFile; fileRef = 39BA87936E6E711619B699C7D4C89391 /* exsltexports.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3D89296BBFD544128F881B157FCC07C4 /* extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 40285A2876766EA595785CA63FD5F92D /* extensions.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3FBCED4C765D8C763F77AC2B59EBE6EC /* xsltInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = 68C1C54659E9DF8DDEB9D33B01519C20 /* xsltInternals.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3FE96BE4CE8776C3A6C46668C06627DC /* SkyJSONResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCD5A37A029CED34C9F51EBA853A5C0 /* SkyJSONResponseSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		401C2DDD1436B4AD6B3A43D775389EA4 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DC6799A87A2610514111BAE04939C2C /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4126FC06B09C1514C4623BEF344EEDF2 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D6270B102691125284AABE87593291D4 /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42338279B2121A8844456C46C6302F4C /* security.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B830E318B11601943BA97431C127DC /* security.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		42B2810617208AD14FEFC4B938BA5632 /* NSDictionary+MTLMappingAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DDB61B05CA841429F0BE8A2DD25C10B /* NSDictionary+MTLMappingAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43BC8D2611C04A47C0BE9FFB228E07A5 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E278A2CC0972FC8A27781C3C4EA403E /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4446CD1DE50148DB664E98D81E849BEB /* SkyScraper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0920D5AB126EC0149B9A115A573E813 /* SkyScraper-dummy.m */; };
-		45331AFE4AAB0F1B0BACEBBF41AF2E74 /* exsltconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F65DC389AF4079CF651E213EF1F77B /* exsltconfig.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4446CD1DE50148DB664E98D81E849BEB /* SkyScraper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E22866583A99CB35045E8F2774542189 /* SkyScraper-dummy.m */; };
 		4547FF045836ECCF7C6866E5392AEB5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400D06AE00BF4BE3A864BB70BA4AEEE9 /* Foundation.framework */; };
-		464930A99021CC468CE2F67C8BB1733B /* SkyResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E0566EBCCE71CF1B5A78BFDCFFB85 /* SkyResponseSerializer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		45B81F3A692486559C0249A56329997B /* SkyScraper+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E6C4720F391CFCDA6F52DA8C102CCE /* SkyScraper+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		464930A99021CC468CE2F67C8BB1733B /* SkyResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E2DF479B32749DD0183EE8ACFAE084 /* SkyResponseSerializer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		46AEAA8105CB04076148AC574CADBBC4 /* NSObject+MTLComparisonAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 170B157A42153A64D7A2C44163F32B73 /* NSObject+MTLComparisonAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B3D68FC30B7E314A9AD62C1C0AFF6FA /* SkyXSLTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB894CE9D866D71929B6620BDE9136B /* SkyXSLTransformation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		4C011514B3D9A3CD7D0DE0BC12168BBB /* variables.h in Headers */ = {isa = PBXBuildFile; fileRef = D268BD2EA177DF98D02ED00130DCAF3C /* variables.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4B3D68FC30B7E314A9AD62C1C0AFF6FA /* SkyXSLTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CEAEA599D9B2269382D43BA141F7ACB /* SkyXSLTransformation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		4E32C6B26518F18DC4AB3E225B86EE88 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E7C1AD1C3F6AFA19A12098571E8B4F /* AFSecurityPolicy.m */; };
 		4E94B8F460BF431A50D94814F7C8AF61 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C15D2A6F806FD225D72660C315F1CC20 /* UIActivityIndicatorView+AFNetworking.m */; };
 		4F093F6FBA6E6B060CF66145CF214E14 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FD3135A4C4898FC724F83514DF07AC51 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5030B583A1CDE7890CDAB71029ECC3BE /* MTLReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9772C52BDD5DB660B338F819F154A10B /* MTLReflection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		518149D251536A1DC6DAED0F0FD61D16 /* MTLModel+NSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C4DDE4652AAC8EA6FD3CC30554E7E5 /* MTLModel+NSCoding.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		521E8DE57697E009888E289A2FBD941C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400D06AE00BF4BE3A864BB70BA4AEEE9 /* Foundation.framework */; };
-		53701217925FAE3BE14ADCA2AE070698 /* triodef.h in Headers */ = {isa = PBXBuildFile; fileRef = 470D62DAFE37FDB8B3E2014EF47C8D1B /* triodef.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		522C9E774A445DAB3F4A7500545150F1 /* variables.h in Headers */ = {isa = PBXBuildFile; fileRef = 736E2D4511676FF2A8A090FA5280E73E /* variables.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		54A7A223B8A7F0F65C59A73D68C35F92 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0F273FB9B46763391E522F19373126 /* SwiftyJSON.swift */; };
+		55706835CA6DE602202B9482A2CD3DBA /* trio.h in Headers */ = {isa = PBXBuildFile; fileRef = 0590D819940DC448E843731D3506AD1B /* trio.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		56C8D4F00869E61F210A24E0EE8F3A13 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E0F675953623468037ACD1914BB1DFD6 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59E6715A58AE6B25DE977DE90E9C9B00 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = E02EB63350BB903BEC4056A807813AC2 /* metamacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		5E6279075462267415D445D872E4B7E3 /* MTLModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 691F34BAF0B1286757FEC31D736862DC /* MTLModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F358617EEB7EAF16801A4A3B0FEF94B /* SkyHTMLResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1E87815EF5569F32E89A9E8B42A1E4 /* SkyHTMLResponseSerializer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5F358617EEB7EAF16801A4A3B0FEF94B /* SkyHTMLResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA5CEF6FB1582ED40F1E16C44BEF05C /* SkyHTMLResponseSerializer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		6006ED3DC35600100CEAC157A0F001D9 /* NSArray+MTLManipulationAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AD803FB163ACAB1C4495A2562F7F81D6 /* NSArray+MTLManipulationAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60350C41778FEC8C0A8771B500DFE812 /* MTLTransformerErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 148EC5ADB330FB0CB3424908BE17F312 /* MTLTransformerErrorHandling.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		65F778869480001A53320308A9606BB7 /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9054F9878E6E8941717B3A4FF830F3EB /* EXTRuntimeExtensions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		660DAE1B4E0DABCC55F361798D2E6770 /* SkyXSLTParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9EDF7551E089AB5825B30F2DA07432 /* SkyXSLTParams.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		660DAE1B4E0DABCC55F361798D2E6770 /* SkyXSLTParams.m in Sources */ = {isa = PBXBuildFile; fileRef = A25FFFF4141FB091FE24ADE8D89E5D8C /* SkyXSLTParams.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		678A5FBF72CBBFCA35ACAB6845E01E9F /* Pods-SwiftySkyTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F46C3CCA3803AAE05AE57B92C028FFF /* Pods-SwiftySkyTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		68F25493DF29423FEA798D2247A6C918 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = D2FB2B4593B9A4DA4F4F28E087737D0C /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69415C2F9DB5835C5B0EAA9E8EAAACA2 /* xsltconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = BD73CC6B1521AD2E19C3B29EE2C82B33 /* xsltconfig.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		6B07EF3E354DDEBEB16954021AF085E7 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9FB821789B546E744C8580D7C74477 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6D12D4E9BE9A5A414F38C8A1938B4CBB /* extra.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AD271A43BD762B762062D0CE73BF454 /* extra.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6F60E13C33EF7C84446DE38E6E56FEAF /* attributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 6148747FE3ABB2E808C145AC6DA9CAB3 /* attributes.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		6FDE95FB21B7F5E1EC7A9F49489DAC62 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F6A4E6BF95EA05C64709285AC1E0F7A /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		709AC14374E3E78ECC1CDB75532F2715 /* SkyXSLTParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 27F9D79360C90C2119C4A8CB3E204744 /* SkyXSLTParams.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70BE863A0CD2E55AF9518B76C8D5D9EE /* SkyHTMLResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = BB697D9E7BD3FC1A4771CE46127416A5 /* SkyHTMLResponseSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710C3AE58947AFB9BF8FAD531344A8E3 /* SkyResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = FFA2047550E06EF9B7BC19C4FB68B5FA /* SkyResponseSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7154ACB93F63FAF117CFBE8941365053 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A209EF8B13F9B9793D4DE5936F4C3340 /* AFNetworking.framework */; };
-		71841BD9987C771C241CE0D24E5218B5 /* SkyScraper.h in Headers */ = {isa = PBXBuildFile; fileRef = D498091B05D10CC50BA6B8A645174108 /* SkyScraper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7279D2E7B1604EB8D0CC19F03DB2D762 /* pattern.h in Headers */ = {isa = PBXBuildFile; fileRef = 73278A45925B3C318B884AD829D13D5A /* pattern.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		7373261AAA727D28C48C58C8AFB16B6B /* MTLValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 217E85824134F0EAB185656769911642 /* MTLValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76C1FA68EFCD242119622AE2CEB4D24F /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 49C1222E7D22EDF65A1BB679E14C253C /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76C72D9FA8C86EBBC7E3E4AF7F0B4BB5 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 21817F28CED1F6BA34A8ABD553C28CD9 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7999F436677B92F6DDA1C3D45B67762F /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4797330D031141C2287CE3F5700A5D14 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79D287D48B2A81896F365CA21F0B27D6 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E8ADB132B50E1425BE70481434F7BF /* UIWebView+AFNetworking.m */; };
-		80CDAE9D114796C7914C5EF5D7F07D03 /* exsltexports.h in Headers */ = {isa = PBXBuildFile; fileRef = C4CD24ADD039716CD124E8571C0E0246 /* exsltexports.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		84B777BF5FBFCD39F9952A44C494CFDF /* SkyHTMLResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = F00B8C296EFAEA35EC4D963EAE7398ED /* SkyHTMLResponseSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8DD3DE6912D39809EAB418B272901338 /* SkyResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = C6075F3135312F68EF8656DA755CBF3F /* SkyResponseSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E824C4F7DCD08EB64282ED2F90B21A2 /* SkyMantleModelAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A56CDAB3E1F50B207D2697DEB7D4642 /* SkyMantleModelAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AF71B2F5F3EA15D9C6A55977C27FD49 /* xslt.h in Headers */ = {isa = PBXBuildFile; fileRef = A211242B9E856BA496C312487EBB434C /* xslt.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7ED19F6586C3C455A4E4E273729F8CA0 /* preproc.h in Headers */ = {isa = PBXBuildFile; fileRef = CDFCBC177E31C5786A13722D6DD75863 /* preproc.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		84DE67744FAA6A5956E482417B136EBC /* keys.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E0322CB9C3DB2F84EAF6DD927EB0D07 /* keys.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8B4DF7F01DD331E071CFDA6EF6D10EDD /* libexslt.h in Headers */ = {isa = PBXBuildFile; fileRef = AE05C5B3C726C6FE1DD2C32A256F16D1 /* libexslt.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		945C9834347A969CDD4FB9A5AB9FF0E0 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D659F35896DBA5EDCC896B07E9414DAE /* AFURLSessionManager.m */; };
 		953479179AEA5EFCB29DAC68C23C12AC /* MTLTransformerErrorHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = BBA22FD4197467445570E98E79201A5F /* MTLTransformerErrorHandling.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96247D22CC837A06A450BB49F1D2F79E /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D48872A0110AD11003E37644D85C5FFE /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9667B9A657365F62A0642BB0683E4E05 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 921BE916C709F7506054CBAE840CDC0E /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		998BD2F25D6C416F23FFCB18A5C03E6B /* xsltInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = 81A4767A33880FA5672FFB81595A0B10 /* xsltInternals.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9A5C2330EC73E4D5A1359FF693F8373F /* MTLModel+NSCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 10F67877E87F60F9C7D815068D4E0AAE /* MTLModel+NSCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BA2DFC3AC3787CC82662F2A216FC0CB /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = D183A9BC7AA6FDBDC38766FB8A807C2A /* EXTKeyPathCoding.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9C6E0E56B52CA1D3B3A0B703770CAE28 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5334F5FBA91F0FD7444AE5BD3AD84CA /* CoreGraphics.framework */; };
-		9E4B197965E4D2CBDA015EA75F256C33 /* libxslt.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F0472F1450A519964FD46AA0C9922F2 /* libxslt.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9E795055729E8F398250A5687BB00AE2 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3095D48BA4CD17A9B1198C88518FC1B9 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F9D7C6FECCD7645DAA0EB57EEF213C8 /* SkyModelAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EB3F200990C57FF064E829905CE85FF /* SkyModelAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4CF2F457B7B62FF4EA7B38E97452F65 /* numbersInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = 31BB36D18569654AB02D95DC73F521CD /* numbersInternals.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9F381B72BA7B73EE3A88F3202E1457BB /* namespaces.h in Headers */ = {isa = PBXBuildFile; fileRef = A1D8E28AB7EA2A095A6FD25A6CBFD203 /* namespaces.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9F68FA8EA0E56EBE66840B2E833282F4 /* exsltconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F544126157431B9FB17E37C1BB1068C /* exsltconfig.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		A55F3F8533C7F4C4B8E755EB75747685 /* Mantle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6141AAA9017415A01CFBD5E49D36D6F /* Mantle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A55FF8EFB21EA11BB32251607180F0B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400D06AE00BF4BE3A864BB70BA4AEEE9 /* Foundation.framework */; };
+		A8139528203B34153A56D5CC06CE6BF4 /* SkyXMLResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 17742C15BF0879CD6A4098B6FF73255B /* SkyXMLResponseSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A854494BCD354F9BF2D1EAAE13E3E537 /* documents.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CA2B497E7D8C2B94B3265CA5D37CF37 /* documents.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A9A7EFCF7347FE7C538DB9C1DEA89A6B /* SkyScraper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AF9291184EB7380DD8CBBE088EB27F3 /* SkyScraper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9F967B37C2391F35BF29EED871C3CFE /* NSDictionary+MTLJSONKeyPath.h in Headers */ = {isa = PBXBuildFile; fileRef = E3A9BF92C544A732F08864CD6678C490 /* NSDictionary+MTLJSONKeyPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB4F56D580FAA5CCAE720C62B7B47578 /* keys.h in Headers */ = {isa = PBXBuildFile; fileRef = 28348E9167AA0BC677AD9BC2E9BFF235 /* keys.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B42A49260E02658534FF92164B6FC311 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = AC52E49CC0A88B76DF7E96B1C1AF8A14 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6BA05EC1147E5F82193B9D641E4F225 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78327D4A1AE48FA2A03DD552AB5BE215 /* SwiftyJSON-dummy.m */; };
-		B9C7902F365745CE709A88B1BC810EFD /* xsltconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 21A000951D883707B8475865F369C876 /* xsltconfig.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		BA10561D3613541118DFEF1B578A5B81 /* Pods-SwiftySky-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87134744FD51DB083A6D4D56453C8893 /* Pods-SwiftySky-dummy.m */; };
 		BAD96E2016E6A4B5E5ACAD386CDB65A3 /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = C40CF25A4F7A0F7B5191B959A80FFA5B /* EXTRuntimeExtensions.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		BB82DC2891A35AC22DD6D5CE4CAE4364 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D0496D00C0F56E4D6763CCAB6B13CD06 /* UIButton+AFNetworking.m */; };
 		BC61C0266F58E2FF51DCDA369F89A7BB /* NSError+MTLModelException.h in Headers */ = {isa = PBXBuildFile; fileRef = F2518C74C065A5E75738E1D2A758F48E /* NSError+MTLModelException.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BCA12C6FB8C6A49F9F75150549FA41E9 /* exslt.h in Headers */ = {isa = PBXBuildFile; fileRef = 63B64ED7DC722FD8A34507FE8B1CD489 /* exslt.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BC7E2E9E98CAC743FE8A3C3EF22A4AF2 /* SkyResponseSerializer+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B39629F631F9F6DE6CB57E5051AEAB2 /* SkyResponseSerializer+Protected.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDCD36DF206C525F3ECE2F845464EF61 /* xsltexports.h in Headers */ = {isa = PBXBuildFile; fileRef = AF71E4A24C43E43AD099B7CD3FD6E50A /* xsltexports.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		BF4D5A1B4E84DE3238939BBD5E5AAB4C /* Pods-SwiftySky-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4750364E7A44A2B1139D0E5EEDED29A1 /* Pods-SwiftySky-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C087B9B3A493BC8232CBA4DB1CB47A67 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D00518F898BA6E207AF2D88B9E83E4A /* AFNetworkReachabilityManager.m */; };
 		C19FF51B6E11AA180486CEFB5F3FC219 /* MTLJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C90B371CAE4CAB2D1BEDF982771C89 /* MTLJSONAdapter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		C2334FA65FE838C1AEA97188A84EA792 /* MTLJSONAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 71E2417D7DC57DFAA79E6968E337A58B /* MTLJSONAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2D13ACCBF1A3EC566FDB939ACFD8DEB /* libexslt.h in Headers */ = {isa = PBXBuildFile; fileRef = 78DFFD8A1B60317637B02301D19E7E3A /* libexslt.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C51B96A7E543F72CD7925968E35DC041 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E46862D1C8BC55B6C5179FC74BBDB74 /* AFNetworking-dummy.m */; };
-		C57E7597D39FC99C0606B81E50D67734 /* namespaces.h in Headers */ = {isa = PBXBuildFile; fileRef = 109DF7E132AFF6C0801A16E60921806A /* namespaces.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C69677D2EAE937AE95C5785ADEA51745 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1399B9525AC2FCDC354D82744BD88F /* EXTScope.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		C6CDABE1AEBB5DC4A35A6B221BB98D13 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 607AAE5A5BE53EAE5D7B214029A8450E /* AFURLConnectionOperation.m */; };
 		C70AC3CB2D21E9466D55F37D6167DBA5 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E4D29A3A4779B35BC94994B28C1424B /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7B655603FB1089A5E2D28FCE12DF12F /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB18EAEECCB5C6639D9DEA9F044920BD /* AFHTTPRequestOperationManager.m */; };
 		C92FFCE3C06282C2D08A98524079060D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400D06AE00BF4BE3A864BB70BA4AEEE9 /* Foundation.framework */; };
-		C9D6512B515119375158181ACAB82136 /* SkyScraper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2B9E288BECD50686868BFF410C5A025 /* SkyScraper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC1EFB67BD1B4D9B18694E82C13AF476 /* Mantle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C243BDAAB6E2ABA9FF9450C201461 /* Mantle-dummy.m */; };
-		CCCDAFE405EA994DFAB35DBA86BAEA0F /* transform.h in Headers */ = {isa = PBXBuildFile; fileRef = BD81BF768DE13D3507748A262167DD76 /* transform.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		CEDFE191DF66B8884828359B3494F8E9 /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = DB55A40658CAE0B00EC64D4C6DC4AE0D /* UIAlertView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF051D17275C20E0FBF5736E3C8A0573 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A4CEC196C2866179B7DC83CF1F77DE /* UIProgressView+AFNetworking.m */; };
-		D07706D3E68A2C2D39BD4F0D1CB297C6 /* attributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 605B1083FF1C64A1453DD413273A9E74 /* attributes.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D130B5CA90C1FB84FA8BEC0F1858067D /* SkyXSLTParams.h in Headers */ = {isa = PBXBuildFile; fileRef = B32181EC3CCB515C5F76E5D640DA6F3A /* SkyXSLTParams.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1CD80193235F94027F4182A056190A6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F434BC37D209AA16023FAD0EAB752EB /* Security.framework */; };
 		D2ECD156ABADE70A2547CF7EB5C66DDD /* NSDictionary+MTLJSONKeyPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 799845699892D3B88700F32723D20994 /* NSDictionary+MTLJSONKeyPath.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D590902FDB9CCFE3FE9050B5BE53E542 /* extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B0B553AD5290589D691FB2168D257C /* extensions.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D324E826B456E819AA7AFD710D26A143 /* triodef.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C45DD9D09B3BFC412FA24C63E794A5C /* triodef.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D415855205E821981EB9878B50A08945 /* SkyMantleModelAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = CB15F54FEA3FDAEBA05370E59045B6F7 /* SkyMantleModelAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5B29902A5104C9BDD0FEF6C18AAF3E3 /* security.h in Headers */ = {isa = PBXBuildFile; fileRef = ADD76473499523A2605F948468DB5C00 /* security.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D7C1594DC6A0E38E33E8971C288A9F82 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA7E90F01CB7824366DC39F7B9533BC /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8035299CCA575DF312DDD3B1DA4E900 /* functions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CB915ED607FBBC852ED0798ECCA8495 /* functions.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D86913E8F8A1CA01D792A1DFD3AE671C /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D418731AC5D19B0D2145DF3D2FD2A046 /* AFHTTPSessionManager.m */; };
-		D8AD9045BF3F9401F73BCC1D77CB9AB9 /* functions.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A5D74C6A260D9864BC6CE7C6F523BB /* functions.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DB840EF5FD9645993A399CDE849E784C /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 198CF173D4E6EF5967E4871B91A30F22 /* AFURLResponseSerialization.m */; };
 		DBD13CBC9F44D93A68797F5CA43DEDE4 /* MTLValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A01F48B51BAA5664A863479D5A8ED6A /* MTLValueTransformer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		DC774BCE8F498064954C02E6A43302DE /* xsltutils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EFD6311090B1510C163A55EF7729FBD /* xsltutils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DCD697078E8D606F40C3F6B1AE59BD8A /* imports.h in Headers */ = {isa = PBXBuildFile; fileRef = 042480E882524596DC12E07F515803DB /* imports.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DF4112FFA156222BF7053EF22A8827B9 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F383E2435C643C70A510CB43EBA9D7 /* AFHTTPRequestOperation.m */; };
-		DF47D2234C45CE344DC68163B02E5501 /* xsltlocale.h in Headers */ = {isa = PBXBuildFile; fileRef = E4F7687FCACF1D9D2591B43FCF6CDD99 /* xsltlocale.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DFC29AA19504EF95C8902348017273A8 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 56B5A17E6C8139B550DD1C00C6C1164C /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E13B595DBD5150D4B49772197400C99F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D706C3E52F130032AA51FAA6F5B2CF4C /* MobileCoreServices.framework */; };
-		E3CC7CC5A84C4CE439B33418657F70F3 /* SkyMantleModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 60521471D1B1EC4363406915BE68617A /* SkyMantleModelAdapter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E659ECB431A35CC47B056589FCE1F5DC /* SkyXMLResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 50D7EA98B83F5CFF15DE4C6B5F5D055A /* SkyXMLResponseSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7707095BD4AE44298D8FF4AE94C699B /* preproc.h in Headers */ = {isa = PBXBuildFile; fileRef = 78CBA75DBBE7204D7F12024DA085122A /* preproc.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E3CC7CC5A84C4CE439B33418657F70F3 /* SkyMantleModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 440DF287B0339D8A8878BC23E49A8B55 /* SkyMantleModelAdapter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E3F2DBFD5D32B3980942BECDE033435A /* transform.h in Headers */ = {isa = PBXBuildFile; fileRef = 82B600A4D590636A3AAC2BC67C9FDB40 /* transform.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		E7FA21C38D6A1CB113BE2DA22E73B845 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 806C523072B4ADFD682B451FCA0AB105 /* UIAlertView+AFNetworking.m */; };
 		E9618CAFEEBBEF383D4460D28F2FB4BB /* NSValueTransformer+MTLPredefinedTransformerAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A91EA818E6F9D58ADA872EA31F0D2C /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9A67DF79FB9B81F4E1BB11DB2CDA1E1 /* xsltlocale.h in Headers */ = {isa = PBXBuildFile; fileRef = F677E4043F57D9CF4B893662162ADCA5 /* xsltlocale.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		EAD3FD76FD9E744E823777D1C5C1A5E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400D06AE00BF4BE3A864BB70BA4AEEE9 /* Foundation.framework */; };
 		EF677EC05C40B131998F119109EAFBF7 /* NSArray+MTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E14402B52FC365355730051ED69246B /* NSArray+MTLManipulationAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		F01F8FE43787DE0D4D8663346018FC0F /* imports.h in Headers */ = {isa = PBXBuildFile; fileRef = BCB06400A82CB686D1739313EEB22629 /* imports.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F1C2CB9566F80D7468B8D922D8B3283A /* SkyJSONResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9550FD29569A7A8E1919B80263EBE04F /* SkyJSONResponseSerializer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		F27D0D8F33E016CE6013C99273C4C394 /* SkyXMLResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 299492F3BB23553909A7765F5705B40E /* SkyXMLResponseSerializer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F1C2CB9566F80D7468B8D922D8B3283A /* SkyJSONResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = BE41503BEE0DDAF6909C2DE92474AE98 /* SkyJSONResponseSerializer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F27D0D8F33E016CE6013C99273C4C394 /* SkyXMLResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE5708CB1564C1C3DC2ACFDEDA7DEF7 /* SkyXMLResponseSerializer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		F2E9945B7494E20ED7DC4720A2B8CDC9 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 44911547796B434795DB52EDD3AE0272 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F77FA5858F4FEC879EAF5BB1FCF45CA4 /* SkyScraper+Mantle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B07366E252ADF94C4C1754CF7C2DAD4 /* SkyScraper+Mantle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7C090EDB2587ABD9A0AC5E26DDFA20A /* SkyModelAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9684764202A4679803C1650346F2D25D /* SkyModelAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9DA04DB0F66859E46847844DE745E25 /* Pods-SwiftySkyTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B486CCFA1993E026BE2CF174CC8FBA36 /* Pods-SwiftySkyTests-dummy.m */; };
 		FE9105E8D35D1BC5A3215ADD5F44E1A4 /* NSDictionary+MTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 962F158A0AA3961F728689FE59AB3E6E /* NSDictionary+MTLManipulationAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 /* End PBXBuildFile section */
@@ -226,152 +228,156 @@
 
 /* Begin PBXFileReference section */
 		01C90B371CAE4CAB2D1BEDF982771C89 /* MTLJSONAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLJSONAdapter.m; path = Mantle/MTLJSONAdapter.m; sourceTree = "<group>"; };
-		046E0566EBCCE71CF1B5A78BFDCFFB85 /* SkyResponseSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SkyResponseSerializer.m; path = SkyScraper/SkyResponseSerializer.m; sourceTree = "<group>"; };
+		042480E882524596DC12E07F515803DB /* imports.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = imports.h; path = libxslt/imports.h; sourceTree = "<group>"; };
+		0590D819940DC448E843731D3506AD1B /* trio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = trio.h; path = libxslt/trio.h; sourceTree = "<group>"; };
 		07747D3789DFF0C4190D29880EEA06A3 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		0C0F273FB9B46763391E522F19373126 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
-		0D54A803DB3DB8FFBB24A61E0EA1E38B /* trio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = trio.h; path = libxslt/trio.h; sourceTree = "<group>"; };
 		0F46C3CCA3803AAE05AE57B92C028FFF /* Pods-SwiftySkyTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftySkyTests-umbrella.h"; sourceTree = "<group>"; };
 		0F6A4E6BF95EA05C64709285AC1E0F7A /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
-		109DF7E132AFF6C0801A16E60921806A /* namespaces.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = namespaces.h; path = libxslt/namespaces.h; sourceTree = "<group>"; };
 		10F67877E87F60F9C7D815068D4E0AAE /* MTLModel+NSCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MTLModel+NSCoding.h"; path = "Mantle/MTLModel+NSCoding.h"; sourceTree = "<group>"; };
 		129D9F369EB855C5E74242C994C4517C /* Pods-SwiftySkyTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftySkyTests.modulemap"; sourceTree = "<group>"; };
 		1454E964F4CA51C284740B5BC039C3B6 /* Pods-SwiftySky.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftySky.modulemap"; sourceTree = "<group>"; };
 		148EC5ADB330FB0CB3424908BE17F312 /* MTLTransformerErrorHandling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLTransformerErrorHandling.m; path = Mantle/MTLTransformerErrorHandling.m; sourceTree = "<group>"; };
+		1667E97C71E0E6C7B4E40A90E60AFF4E /* numbersInternals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = numbersInternals.h; path = libxslt/numbersInternals.h; sourceTree = "<group>"; };
 		170B157A42153A64D7A2C44163F32B73 /* NSObject+MTLComparisonAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MTLComparisonAdditions.h"; path = "Mantle/NSObject+MTLComparisonAdditions.h"; sourceTree = "<group>"; };
+		17742C15BF0879CD6A4098B6FF73255B /* SkyXMLResponseSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SkyXMLResponseSerializer.h; path = SkyScraper/SkyXMLResponseSerializer.h; sourceTree = "<group>"; };
 		1925DED0FF8AB936139333711A784F49 /* Pods-SwiftySkyTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftySkyTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		198CF173D4E6EF5967E4871B91A30F22 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		1EFD6311090B1510C163A55EF7729FBD /* xsltutils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xsltutils.h; path = libxslt/xsltutils.h; sourceTree = "<group>"; };
-		1F9EDF7551E089AB5825B30F2DA07432 /* SkyXSLTParams.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SkyXSLTParams.m; path = SkyScraper/SkyXSLTParams.m; sourceTree = "<group>"; };
+		1AD271A43BD762B762062D0CE73BF454 /* extra.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = extra.h; path = libxslt/extra.h; sourceTree = "<group>"; };
+		1B07366E252ADF94C4C1754CF7C2DAD4 /* SkyScraper+Mantle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SkyScraper+Mantle.h"; path = "SkyScraper/SkyScraper+Mantle.h"; sourceTree = "<group>"; };
+		1B39629F631F9F6DE6CB57E5051AEAB2 /* SkyResponseSerializer+Protected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SkyResponseSerializer+Protected.h"; path = "SkyScraper/SkyResponseSerializer+Protected.h"; sourceTree = "<group>"; };
+		1DE5708CB1564C1C3DC2ACFDEDA7DEF7 /* SkyXMLResponseSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SkyXMLResponseSerializer.m; path = SkyScraper/SkyXMLResponseSerializer.m; sourceTree = "<group>"; };
 		20A91EA818E6F9D58ADA872EA31F0D2C /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValueTransformer+MTLPredefinedTransformerAdditions.h"; path = "Mantle/NSValueTransformer+MTLPredefinedTransformerAdditions.h"; sourceTree = "<group>"; };
 		217E85824134F0EAB185656769911642 /* MTLValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLValueTransformer.h; path = Mantle/MTLValueTransformer.h; sourceTree = "<group>"; };
 		21817F28CED1F6BA34A8ABD553C28CD9 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
-		21A000951D883707B8475865F369C876 /* xsltconfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xsltconfig.h; path = libxslt/xsltconfig.h; sourceTree = "<group>"; };
+		22E6C4720F391CFCDA6F52DA8C102CCE /* SkyScraper+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SkyScraper+AFNetworking.h"; path = "SkyScraper/SkyScraper+AFNetworking.h"; sourceTree = "<group>"; };
 		2335C6C19034AABEB0B521AED765BF1C /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2358BD64ED2D5BD9F5274FC82A974FD5 /* Mantle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mantle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23E8ADB132B50E1425BE70481434F7BF /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		25FF5C03A246AD7285E01708C3CFAF09 /* Pods-SwiftySky.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftySky.release.xcconfig"; sourceTree = "<group>"; };
-		27F9D79360C90C2119C4A8CB3E204744 /* SkyXSLTParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SkyXSLTParams.h; path = SkyScraper/SkyXSLTParams.h; sourceTree = "<group>"; };
-		28348E9167AA0BC677AD9BC2E9BFF235 /* keys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = keys.h; path = libxslt/keys.h; sourceTree = "<group>"; };
-		299492F3BB23553909A7765F5705B40E /* SkyXMLResponseSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SkyXMLResponseSerializer.m; path = SkyScraper/SkyXMLResponseSerializer.m; sourceTree = "<group>"; };
 		2B20D2509A0A6D563186B416A8235F15 /* NSDictionary+MTLMappingAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+MTLMappingAdditions.m"; path = "Mantle/NSDictionary+MTLMappingAdditions.m"; sourceTree = "<group>"; };
 		2D0F25FDDE523FF0CBD136B7D8D730A0 /* NSDictionary+MTLManipulationAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MTLManipulationAdditions.h"; path = "Mantle/NSDictionary+MTLManipulationAdditions.h"; sourceTree = "<group>"; };
 		2DC6799A87A2610514111BAE04939C2C /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
 		2E7DD8EFF4E72C21CD1068F9EA9EDC99 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		3095D48BA4CD17A9B1198C88518FC1B9 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		31BB36D18569654AB02D95DC73F521CD /* numbersInternals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = numbersInternals.h; path = libxslt/numbersInternals.h; sourceTree = "<group>"; };
 		353D7F41EE04DDEB9E8F759CA913B8E9 /* NSValueTransformer+MTLInversionAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValueTransformer+MTLInversionAdditions.m"; path = "Mantle/NSValueTransformer+MTLInversionAdditions.m"; sourceTree = "<group>"; };
+		39BA87936E6E711619B699C7D4C89391 /* exsltexports.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = exsltexports.h; path = libexslt/exsltexports.h; sourceTree = "<group>"; };
 		3B3518F2F9EF9206AEDB82639C94A1D6 /* Pods-SwiftySky-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftySky-acknowledgements.plist"; sourceTree = "<group>"; };
-		3C6C0F8898B9C0435115A15DAE720E2F /* SkyScraper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SkyScraper.modulemap; sourceTree = "<group>"; };
+		3C45DD9D09B3BFC412FA24C63E794A5C /* triodef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = triodef.h; path = libxslt/triodef.h; sourceTree = "<group>"; };
 		3C77C3F089FC0753D2765BDE8A453AC2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CA2B497E7D8C2B94B3265CA5D37CF37 /* documents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = documents.h; path = libxslt/documents.h; sourceTree = "<group>"; };
 		3DDB61B05CA841429F0BE8A2DD25C10B /* NSDictionary+MTLMappingAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MTLMappingAdditions.h"; path = "Mantle/NSDictionary+MTLMappingAdditions.h"; sourceTree = "<group>"; };
 		3DFD1E4D3ACB335EEF5ECE8C47BB1104 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		3E46862D1C8BC55B6C5179FC74BBDB74 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
-		3EB7885D81D0F25BD19463125EA490D3 /* SkyResponseSerializer+Protected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SkyResponseSerializer+Protected.h"; path = "SkyScraper/SkyResponseSerializer+Protected.h"; sourceTree = "<group>"; };
-		3F0472F1450A519964FD46AA0C9922F2 /* libxslt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = libxslt.h; path = libxslt/libxslt.h; sourceTree = "<group>"; };
 		400D06AE00BF4BE3A864BB70BA4AEEE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		40285A2876766EA595785CA63FD5F92D /* extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = extensions.h; path = libxslt/extensions.h; sourceTree = "<group>"; };
+		440DF287B0339D8A8878BC23E49A8B55 /* SkyMantleModelAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SkyMantleModelAdapter.m; path = SkyScraper/SkyMantleModelAdapter.m; sourceTree = "<group>"; };
 		44911547796B434795DB52EDD3AE0272 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
 		46677692842BCC086582E9B1ACD81FBF /* Pods_SwiftySky.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftySky.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F383E2435C643C70A510CB43EBA9D7 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
-		470D62DAFE37FDB8B3E2014EF47C8D1B /* triodef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = triodef.h; path = libxslt/triodef.h; sourceTree = "<group>"; };
 		4750364E7A44A2B1139D0E5EEDED29A1 /* Pods-SwiftySky-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftySky-umbrella.h"; sourceTree = "<group>"; };
 		4797330D031141C2287CE3F5700A5D14 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		494C243BDAAB6E2ABA9FF9450C201461 /* Mantle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mantle-dummy.m"; sourceTree = "<group>"; };
 		49C1222E7D22EDF65A1BB679E14C253C /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		4A56CDAB3E1F50B207D2697DEB7D4642 /* SkyMantleModelAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SkyMantleModelAdapter.h; path = SkyScraper/SkyMantleModelAdapter.h; sourceTree = "<group>"; };
+		49E2DF479B32749DD0183EE8ACFAE084 /* SkyResponseSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SkyResponseSerializer.m; path = SkyScraper/SkyResponseSerializer.m; sourceTree = "<group>"; };
 		4DB0F29CD4B3BCFE4A47840A553C0B1D /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
-		4EB3F200990C57FF064E829905CE85FF /* SkyModelAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SkyModelAdapter.h; path = SkyScraper/SkyModelAdapter.h; sourceTree = "<group>"; };
-		50D7EA98B83F5CFF15DE4C6B5F5D055A /* SkyXMLResponseSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SkyXMLResponseSerializer.h; path = SkyScraper/SkyXMLResponseSerializer.h; sourceTree = "<group>"; };
-		54075CDA779BA34A3FD8284CEC7E8E7C /* xsltexports.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xsltexports.h; path = libxslt/xsltexports.h; sourceTree = "<group>"; };
-		564A88282FA81A0D06237EAFC7165BA8 /* xslt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xslt.h; path = libxslt/xslt.h; sourceTree = "<group>"; };
+		4F544126157431B9FB17E37C1BB1068C /* exsltconfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = exsltconfig.h; path = libexslt/exsltconfig.h; sourceTree = "<group>"; };
 		56B5A17E6C8139B550DD1C00C6C1164C /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
 		5BA7E90F01CB7824366DC39F7B9533BC /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		5CEAEA599D9B2269382D43BA141F7ACB /* SkyXSLTransformation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SkyXSLTransformation.m; path = SkyScraper/SkyXSLTransformation.m; sourceTree = "<group>"; };
 		5E278A2CC0972FC8A27781C3C4EA403E /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		60521471D1B1EC4363406915BE68617A /* SkyMantleModelAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SkyMantleModelAdapter.m; path = SkyScraper/SkyMantleModelAdapter.m; sourceTree = "<group>"; };
-		605B1083FF1C64A1453DD413273A9E74 /* attributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = attributes.h; path = libxslt/attributes.h; sourceTree = "<group>"; };
 		607AAE5A5BE53EAE5D7B214029A8450E /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		6148747FE3ABB2E808C145AC6DA9CAB3 /* attributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = attributes.h; path = libxslt/attributes.h; sourceTree = "<group>"; };
 		621D5C359B0A120232782FA7B4C2CC77 /* NSError+MTLModelException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+MTLModelException.m"; path = "Mantle/NSError+MTLModelException.m"; sourceTree = "<group>"; };
 		6234662677E308EEFA1C957AAFBCA43A /* SkyScraper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SkyScraper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		632DE3990ADED1D20E72FB1A2A55E8C0 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AFNetworking.modulemap; sourceTree = "<group>"; };
 		63A4CEC196C2866179B7DC83CF1F77DE /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
-		63B64ED7DC722FD8A34507FE8B1CD489 /* exslt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = exslt.h; path = libexslt/exslt.h; sourceTree = "<group>"; };
 		63C4DDE4652AAC8EA6FD3CC30554E7E5 /* MTLModel+NSCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MTLModel+NSCoding.m"; path = "Mantle/MTLModel+NSCoding.m"; sourceTree = "<group>"; };
 		64A080047E39480111A6EB8CD3CE01AA /* Pods-SwiftySky.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftySky.debug.xcconfig"; sourceTree = "<group>"; };
 		667E9A4932198109DF0E7EFC43386774 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		68C1C54659E9DF8DDEB9D33B01519C20 /* xsltInternals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xsltInternals.h; path = libxslt/xsltInternals.h; sourceTree = "<group>"; };
 		68EC24ADB26B3337BD80AEE2E468B989 /* Mantle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Mantle.modulemap; sourceTree = "<group>"; };
 		6904268A1951D1199AD4297C9DDA35C0 /* Pods-SwiftySkyTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftySkyTests-frameworks.sh"; sourceTree = "<group>"; };
 		691F34BAF0B1286757FEC31D736862DC /* MTLModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLModel.h; path = Mantle/MTLModel.h; sourceTree = "<group>"; };
 		6A01F48B51BAA5664A863479D5A8ED6A /* MTLValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLValueTransformer.m; path = Mantle/MTLValueTransformer.m; sourceTree = "<group>"; };
+		6AF9291184EB7380DD8CBBE088EB27F3 /* SkyScraper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyScraper-umbrella.h"; sourceTree = "<group>"; };
+		6CB915ED607FBBC852ED0798ECCA8495 /* functions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = functions.h; path = libxslt/functions.h; sourceTree = "<group>"; };
 		6D00518F898BA6E207AF2D88B9E83E4A /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		6E0322CB9C3DB2F84EAF6DD927EB0D07 /* keys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = keys.h; path = libxslt/keys.h; sourceTree = "<group>"; };
 		6FBE8E6A93EACD030EB1FC262C4730F6 /* NSObject+MTLComparisonAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MTLComparisonAdditions.m"; path = "Mantle/NSObject+MTLComparisonAdditions.m"; sourceTree = "<group>"; };
 		71E2417D7DC57DFAA79E6968E337A58B /* MTLJSONAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLJSONAdapter.h; path = Mantle/MTLJSONAdapter.h; sourceTree = "<group>"; };
-		73278A45925B3C318B884AD829D13D5A /* pattern.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pattern.h; path = libxslt/pattern.h; sourceTree = "<group>"; };
+		736E2D4511676FF2A8A090FA5280E73E /* variables.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = variables.h; path = libxslt/variables.h; sourceTree = "<group>"; };
 		7502447A96CCDEE028356B7225709096 /* Mantle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mantle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7717CC05E1FD10D94D52D97B979F8B48 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78327D4A1AE48FA2A03DD552AB5BE215 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
-		78CBA75DBBE7204D7F12024DA085122A /* preproc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = preproc.h; path = libxslt/preproc.h; sourceTree = "<group>"; };
-		78DFFD8A1B60317637B02301D19E7E3A /* libexslt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = libexslt.h; path = libexslt/libexslt.h; sourceTree = "<group>"; };
 		799845699892D3B88700F32723D20994 /* NSDictionary+MTLJSONKeyPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+MTLJSONKeyPath.m"; path = "Mantle/NSDictionary+MTLJSONKeyPath.m"; sourceTree = "<group>"; };
-		79A5D74C6A260D9864BC6CE7C6F523BB /* functions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = functions.h; path = libxslt/functions.h; sourceTree = "<group>"; };
 		7D9190900DC7F5B6919F6EEFAFC99FF1 /* MTLModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLModel.m; path = Mantle/MTLModel.m; sourceTree = "<group>"; };
 		7E14402B52FC365355730051ED69246B /* NSArray+MTLManipulationAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MTLManipulationAdditions.m"; path = "Mantle/NSArray+MTLManipulationAdditions.m"; sourceTree = "<group>"; };
-		7FB894CE9D866D71929B6620BDE9136B /* SkyXSLTransformation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SkyXSLTransformation.m; path = SkyScraper/SkyXSLTransformation.m; sourceTree = "<group>"; };
 		806C523072B4ADFD682B451FCA0AB105 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
-		81A4767A33880FA5672FFB81595A0B10 /* xsltInternals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xsltInternals.h; path = libxslt/xsltInternals.h; sourceTree = "<group>"; };
-		8270A54687BDEBD331B87D54174E80C9 /* SkyScraper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyScraper.xcconfig; sourceTree = "<group>"; };
+		82B600A4D590636A3AAC2BC67C9FDB40 /* transform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = transform.h; path = libxslt/transform.h; sourceTree = "<group>"; };
 		84C42874BF6667F04D4442F26BD80984 /* Mantle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Mantle.h; path = Mantle/Mantle.h; sourceTree = "<group>"; };
 		86487EB4FBC6C0AAEDD7008D5FDD0568 /* Mantle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mantle.xcconfig; sourceTree = "<group>"; };
 		87134744FD51DB083A6D4D56453C8893 /* Pods-SwiftySky-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftySky-dummy.m"; sourceTree = "<group>"; };
 		8E4D29A3A4779B35BC94994B28C1424B /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
 		8F434BC37D209AA16023FAD0EAB752EB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		8FCD5A37A029CED34C9F51EBA853A5C0 /* SkyJSONResponseSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SkyJSONResponseSerializer.h; path = SkyScraper/SkyJSONResponseSerializer.h; sourceTree = "<group>"; };
 		9054F9878E6E8941717B3A4FF830F3EB /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTRuntimeExtensions.m; path = Mantle/extobjc/EXTRuntimeExtensions.m; sourceTree = "<group>"; };
 		921BE916C709F7506054CBAE840CDC0E /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
-		93CA3A975D1C1526B0E26EB3EF64E77C /* templates.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = templates.h; path = libxslt/templates.h; sourceTree = "<group>"; };
-		9550FD29569A7A8E1919B80263EBE04F /* SkyJSONResponseSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SkyJSONResponseSerializer.m; path = SkyScraper/SkyJSONResponseSerializer.m; sourceTree = "<group>"; };
 		962F158A0AA3961F728689FE59AB3E6E /* NSDictionary+MTLManipulationAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+MTLManipulationAdditions.m"; path = "Mantle/NSDictionary+MTLManipulationAdditions.m"; sourceTree = "<group>"; };
+		9684764202A4679803C1650346F2D25D /* SkyModelAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SkyModelAdapter.h; path = SkyScraper/SkyModelAdapter.h; sourceTree = "<group>"; };
 		9772C52BDD5DB660B338F819F154A10B /* MTLReflection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLReflection.m; path = Mantle/MTLReflection.m; sourceTree = "<group>"; };
 		97E7C1AD1C3F6AFA19A12098571E8B4F /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
-		993BCFB6EA17F3AC83D817874CA8D73F /* SkyXSLTransformation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SkyXSLTransformation.h; path = SkyScraper/SkyXSLTransformation.h; sourceTree = "<group>"; };
-		9A4477CEAA023384434433CB449C3CE2 /* extra.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = extra.h; path = libxslt/extra.h; sourceTree = "<group>"; };
 		9A5B4FF0DCF12857EE79A39C24C13C02 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
 		9B09936AA0FEF1785463B2182E9DCA58 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
 		9B0C44B4C1AFE7DD62893F545AC624B1 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		9D4F83C13753324CE5A823CEF3A38D73 /* NSValueTransformer+MTLInversionAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValueTransformer+MTLInversionAdditions.h"; path = "Mantle/NSValueTransformer+MTLInversionAdditions.h"; sourceTree = "<group>"; };
 		9D89EF7E5523E5CC7AD8C4D0726A7AC5 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
 		9EC97F047B10AA0B5A1DD502466BC2AB /* Mantle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mantle-prefix.pch"; sourceTree = "<group>"; };
-		A0B830E318B11601943BA97431C127DC /* security.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = security.h; path = libxslt/security.h; sourceTree = "<group>"; };
+		A1D8E28AB7EA2A095A6FD25A6CBFD203 /* namespaces.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = namespaces.h; path = libxslt/namespaces.h; sourceTree = "<group>"; };
 		A209EF8B13F9B9793D4DE5936F4C3340 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A211242B9E856BA496C312487EBB434C /* xslt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xslt.h; path = libxslt/xslt.h; sourceTree = "<group>"; };
+		A25FFFF4141FB091FE24ADE8D89E5D8C /* SkyXSLTParams.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SkyXSLTParams.m; path = SkyScraper/SkyXSLTParams.m; sourceTree = "<group>"; };
 		A5E6C718FF0E96659700B0273EAADE33 /* MTLReflection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLReflection.h; path = Mantle/MTLReflection.h; sourceTree = "<group>"; };
 		A6433591F1E3A957495B83D09848D066 /* EXTScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTScope.h; path = Mantle/extobjc/EXTScope.h; sourceTree = "<group>"; };
 		A79B7E6BD99AC67C7124407607B5AF1A /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		A86C0B8DF5913A9D7DF199B6D552586A /* templates.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = templates.h; path = libxslt/templates.h; sourceTree = "<group>"; };
 		AC52E49CC0A88B76DF7E96B1C1AF8A14 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		AD3E6854D61E801578A21B245975E29C /* Pods-SwiftySky-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftySky-frameworks.sh"; sourceTree = "<group>"; };
 		AD6561438146FA846DA096C9D5721EB7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD6BF4E6B28FFC0A1513E4264BAEEBD7 /* Pods-SwiftySky-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftySky-resources.sh"; sourceTree = "<group>"; };
 		AD803FB163ACAB1C4495A2562F7F81D6 /* NSArray+MTLManipulationAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MTLManipulationAdditions.h"; path = "Mantle/NSArray+MTLManipulationAdditions.h"; sourceTree = "<group>"; };
+		ADD76473499523A2605F948468DB5C00 /* security.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = security.h; path = libxslt/security.h; sourceTree = "<group>"; };
+		AE05C5B3C726C6FE1DD2C32A256F16D1 /* libexslt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = libexslt.h; path = libexslt/libexslt.h; sourceTree = "<group>"; };
+		AF1B8687A12FBF9C2B79F9CB19AA9CAC /* SkyScraper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SkyScraper.modulemap; sourceTree = "<group>"; };
+		AF71E4A24C43E43AD099B7CD3FD6E50A /* xsltexports.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xsltexports.h; path = libxslt/xsltexports.h; sourceTree = "<group>"; };
 		AF9537802CC4227C820FAC9C62348422 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
 		AFCC134D50AC11C4E91C5047AB9F9126 /* Pods-SwiftySkyTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftySkyTests-resources.sh"; sourceTree = "<group>"; };
+		B272173F08CAD02564F75737F71F7123 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B32181EC3CCB515C5F76E5D640DA6F3A /* SkyXSLTParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SkyXSLTParams.h; path = SkyScraper/SkyXSLTParams.h; sourceTree = "<group>"; };
 		B486CCFA1993E026BE2CF174CC8FBA36 /* Pods-SwiftySkyTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftySkyTests-dummy.m"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BB3E37F075164F7BAD0191A515567CD4 /* documents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = documents.h; path = libxslt/documents.h; sourceTree = "<group>"; };
+		BAA5CEF6FB1582ED40F1E16C44BEF05C /* SkyHTMLResponseSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SkyHTMLResponseSerializer.m; path = SkyScraper/SkyHTMLResponseSerializer.m; sourceTree = "<group>"; };
+		BB697D9E7BD3FC1A4771CE46127416A5 /* SkyHTMLResponseSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SkyHTMLResponseSerializer.h; path = SkyScraper/SkyHTMLResponseSerializer.h; sourceTree = "<group>"; };
 		BBA22FD4197467445570E98E79201A5F /* MTLTransformerErrorHandling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLTransformerErrorHandling.h; path = Mantle/MTLTransformerErrorHandling.h; sourceTree = "<group>"; };
-		BCB06400A82CB686D1739313EEB22629 /* imports.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = imports.h; path = libxslt/imports.h; sourceTree = "<group>"; };
-		BD81BF768DE13D3507748A262167DD76 /* transform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = transform.h; path = libxslt/transform.h; sourceTree = "<group>"; };
+		BD73CC6B1521AD2E19C3B29EE2C82B33 /* xsltconfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xsltconfig.h; path = libxslt/xsltconfig.h; sourceTree = "<group>"; };
+		BE41503BEE0DDAF6909C2DE92474AE98 /* SkyJSONResponseSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SkyJSONResponseSerializer.m; path = SkyScraper/SkyJSONResponseSerializer.m; sourceTree = "<group>"; };
 		BEB8DDAF327DE5D49E075C55586281EE /* Pods_SwiftySkyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftySkyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF9520BAB849B933A6D98EC2F1A72A9 /* xsltutils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xsltutils.h; path = libxslt/xsltutils.h; sourceTree = "<group>"; };
+		BFAE6F193F6C5802DD74562C8555A00A /* libxslt-with-plugins.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libxslt-with-plugins.a"; path = "libxslt-with-plugins/libxslt-with-plugins.a"; sourceTree = "<group>"; };
 		C15D2A6F806FD225D72660C315F1CC20 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
-		C2B9E288BECD50686868BFF410C5A025 /* SkyScraper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyScraper-umbrella.h"; sourceTree = "<group>"; };
+		C1FDA0D20B208A847FFE1A64904C3A17 /* SkyScraper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyScraper.xcconfig; sourceTree = "<group>"; };
 		C40CF25A4F7A0F7B5191B959A80FFA5B /* EXTRuntimeExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTRuntimeExtensions.h; path = Mantle/extobjc/EXTRuntimeExtensions.h; sourceTree = "<group>"; };
-		C480A65023DDDA6E9643079703B4A556 /* SkyScraper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyScraper-prefix.pch"; sourceTree = "<group>"; };
-		C4CD24ADD039716CD124E8571C0E0246 /* exsltexports.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = exsltexports.h; path = libexslt/exsltexports.h; sourceTree = "<group>"; };
-		C6075F3135312F68EF8656DA755CBF3F /* SkyResponseSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SkyResponseSerializer.h; path = SkyScraper/SkyResponseSerializer.h; sourceTree = "<group>"; };
+		C7AC112318A2869A3C91A12BF14E401A /* SkyScraper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SkyScraper.h; path = SkyScraper/SkyScraper.h; sourceTree = "<group>"; };
 		C9DA749A05B0ABED96C9DFC54102AD44 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		CB15F54FEA3FDAEBA05370E59045B6F7 /* SkyMantleModelAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SkyMantleModelAdapter.h; path = SkyScraper/SkyMantleModelAdapter.h; sourceTree = "<group>"; };
+		CDFCBC177E31C5786A13722D6DD75863 /* preproc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = preproc.h; path = libxslt/preproc.h; sourceTree = "<group>"; };
 		D0496D00C0F56E4D6763CCAB6B13CD06 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
 		D183A9BC7AA6FDBDC38766FB8A807C2A /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTKeyPathCoding.h; path = Mantle/extobjc/EXTKeyPathCoding.h; sourceTree = "<group>"; };
-		D268BD2EA177DF98D02ED00130DCAF3C /* variables.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = variables.h; path = libxslt/variables.h; sourceTree = "<group>"; };
 		D2D92138935BED302D2A22554547E05F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2FB2B4593B9A4DA4F4F28E087737D0C /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		D3CEF50D67FAA6418FB390A87BB5BA64 /* pattern.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pattern.h; path = libxslt/pattern.h; sourceTree = "<group>"; };
 		D418731AC5D19B0D2145DF3D2FD2A046 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		D426D88B6018A70D39CDF570156460FD /* exslt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = exslt.h; path = libexslt/exslt.h; sourceTree = "<group>"; };
 		D48872A0110AD11003E37644D85C5FFE /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
-		D498091B05D10CC50BA6B8A645174108 /* SkyScraper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SkyScraper.h; path = SkyScraper/SkyScraper.h; sourceTree = "<group>"; };
 		D5334F5FBA91F0FD7444AE5BD3AD84CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		D6270B102691125284AABE87593291D4 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
 		D659F35896DBA5EDCC896B07E9414DAE /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
@@ -382,26 +388,24 @@
 		E02EB63350BB903BEC4056A807813AC2 /* metamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = metamacros.h; path = Mantle/extobjc/metamacros.h; sourceTree = "<group>"; };
 		E0F675953623468037ACD1914BB1DFD6 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
 		E178191D687E956B3684AE26FA7C43CF /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E22866583A99CB35045E8F2774542189 /* SkyScraper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyScraper-dummy.m"; sourceTree = "<group>"; };
 		E3A9BF92C544A732F08864CD6678C490 /* NSDictionary+MTLJSONKeyPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MTLJSONKeyPath.h"; path = "Mantle/NSDictionary+MTLJSONKeyPath.h"; sourceTree = "<group>"; };
 		E3B6AAE6A709E4256532177CE8A75F41 /* Pods-SwiftySkyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftySkyTests.release.xcconfig"; sourceTree = "<group>"; };
-		E4F7687FCACF1D9D2591B43FCF6CDD99 /* xsltlocale.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xsltlocale.h; path = libxslt/xsltlocale.h; sourceTree = "<group>"; };
+		E3C7C89E705A9AE6DA88464EEC097927 /* SkyXSLTransformation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SkyXSLTransformation.h; path = SkyScraper/SkyXSLTransformation.h; sourceTree = "<group>"; };
 		E6141AAA9017415A01CFBD5E49D36D6F /* Mantle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mantle-umbrella.h"; sourceTree = "<group>"; };
 		E916BF65E64EE07E5B1B719F3110DB44 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EAFA7E5E9AD7F662BD38BEE84B5A8F16 /* SkyJSONResponseSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SkyJSONResponseSerializer.h; path = SkyScraper/SkyJSONResponseSerializer.h; sourceTree = "<group>"; };
 		EB9FB821789B546E744C8580D7C74477 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValueTransformer+MTLPredefinedTransformerAdditions.m"; path = "Mantle/NSValueTransformer+MTLPredefinedTransformerAdditions.m"; sourceTree = "<group>"; };
-		EC1E87815EF5569F32E89A9E8B42A1E4 /* SkyHTMLResponseSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SkyHTMLResponseSerializer.m; path = SkyScraper/SkyHTMLResponseSerializer.m; sourceTree = "<group>"; };
-		F00B8C296EFAEA35EC4D963EAE7398ED /* SkyHTMLResponseSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SkyHTMLResponseSerializer.h; path = SkyScraper/SkyHTMLResponseSerializer.h; sourceTree = "<group>"; };
-		F0920D5AB126EC0149B9A115A573E813 /* SkyScraper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyScraper-dummy.m"; sourceTree = "<group>"; };
 		F2518C74C065A5E75738E1D2A758F48E /* NSError+MTLModelException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+MTLModelException.h"; path = "Mantle/NSError+MTLModelException.h"; sourceTree = "<group>"; };
 		F355AC401F60349E54C65ACE8961818F /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
-		F4B0B553AD5290589D691FB2168D257C /* extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = extensions.h; path = libxslt/extensions.h; sourceTree = "<group>"; };
-		F4F65DC389AF4079CF651E213EF1F77B /* exsltconfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = exsltconfig.h; path = libexslt/exsltconfig.h; sourceTree = "<group>"; };
+		F677E4043F57D9CF4B893662162ADCA5 /* xsltlocale.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xsltlocale.h; path = libxslt/xsltlocale.h; sourceTree = "<group>"; };
+		F9D4C4DBF2FB5AE2D7B5933F4630C856 /* SkyScraper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyScraper-prefix.pch"; sourceTree = "<group>"; };
 		F9E228CF83EFD08579B4CCF6C216C5E7 /* Pods-SwiftySkyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftySkyTests.debug.xcconfig"; sourceTree = "<group>"; };
-		FBBA30086145C5142BFC14BA8F982B49 /* libxslt-with-plugins.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libxslt-with-plugins.a"; path = "libxslt-with-plugins/libxslt-with-plugins.a"; sourceTree = "<group>"; };
+		FC94FDD6DDD3F4D01D988EB764B873D8 /* libxslt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = libxslt.h; path = libxslt/libxslt.h; sourceTree = "<group>"; };
 		FD3135A4C4898FC724F83514DF07AC51 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
 		FE8E1B2F75D6479A461A6C51778ABC3B /* Pods-SwiftySkyTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftySkyTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FEF3F329F7CD96210B7FF8792E7DF30F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF1399B9525AC2FCDC354D82744BD88F /* EXTScope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTScope.m; path = Mantle/extobjc/EXTScope.m; sourceTree = "<group>"; };
+		FFA2047550E06EF9B7BC19C4FB68B5FA /* SkyResponseSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SkyResponseSerializer.h; path = SkyScraper/SkyResponseSerializer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -462,20 +466,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		066E513B2215F9E150F9166581225963 /* AFNetworking2 */ = {
+		087349DABA12DFC4C746E80F72DE6D76 /* SkyScraper */ = {
 			isa = PBXGroup;
 			children = (
-				F00B8C296EFAEA35EC4D963EAE7398ED /* SkyHTMLResponseSerializer.h */,
-				EC1E87815EF5569F32E89A9E8B42A1E4 /* SkyHTMLResponseSerializer.m */,
-				EAFA7E5E9AD7F662BD38BEE84B5A8F16 /* SkyJSONResponseSerializer.h */,
-				9550FD29569A7A8E1919B80263EBE04F /* SkyJSONResponseSerializer.m */,
-				C6075F3135312F68EF8656DA755CBF3F /* SkyResponseSerializer.h */,
-				046E0566EBCCE71CF1B5A78BFDCFFB85 /* SkyResponseSerializer.m */,
-				3EB7885D81D0F25BD19463125EA490D3 /* SkyResponseSerializer+Protected.h */,
-				50D7EA98B83F5CFF15DE4C6B5F5D055A /* SkyXMLResponseSerializer.h */,
-				299492F3BB23553909A7765F5705B40E /* SkyXMLResponseSerializer.m */,
+				41A55D4634C9F8DFE25CB44FF86D91E7 /* AFNetworking2 */,
+				81CA25930D62465DD24E30C5D4141352 /* Base */,
+				6D9BC6B2A0197C6330B4D7B959FFEFAC /* Mantle */,
+				75ADF73C885F109652A893643454C2C0 /* Support Files */,
 			);
-			name = AFNetworking2;
+			path = SkyScraper;
 			sourceTree = "<group>";
 		};
 		0B396216DC91D4EA1623141812EBD754 /* Security */ = {
@@ -506,10 +505,27 @@
 			children = (
 				A2661D4644D4468DFA42A6F1A3A2D2AE /* AFNetworking */,
 				ED7A5AB6645D07A329AA115F79E22F85 /* Mantle */,
-				E4E6DADD9164B0A7DD0B94F655BDE6B5 /* SkyScraper */,
+				087349DABA12DFC4C746E80F72DE6D76 /* SkyScraper */,
 				645B77D54DB507A02BDA48A3CA5A483B /* SwiftyJSON */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		41A55D4634C9F8DFE25CB44FF86D91E7 /* AFNetworking2 */ = {
+			isa = PBXGroup;
+			children = (
+				BB697D9E7BD3FC1A4771CE46127416A5 /* SkyHTMLResponseSerializer.h */,
+				BAA5CEF6FB1582ED40F1E16C44BEF05C /* SkyHTMLResponseSerializer.m */,
+				8FCD5A37A029CED34C9F51EBA853A5C0 /* SkyJSONResponseSerializer.h */,
+				BE41503BEE0DDAF6909C2DE92474AE98 /* SkyJSONResponseSerializer.m */,
+				FFA2047550E06EF9B7BC19C4FB68B5FA /* SkyResponseSerializer.h */,
+				49E2DF479B32749DD0183EE8ACFAE084 /* SkyResponseSerializer.m */,
+				1B39629F631F9F6DE6CB57E5051AEAB2 /* SkyResponseSerializer+Protected.h */,
+				22E6C4720F391CFCDA6F52DA8C102CCE /* SkyScraper+AFNetworking.h */,
+				17742C15BF0879CD6A4098B6FF73255B /* SkyXMLResponseSerializer.h */,
+				1DE5708CB1564C1C3DC2ACFDEDA7DEF7 /* SkyXMLResponseSerializer.m */,
+			);
+			name = AFNetworking2;
 			sourceTree = "<group>";
 		};
 		441054556BE36C987E93E8657BAADC95 /* Support Files */ = {
@@ -535,46 +551,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5DDA2580D4ED5739E1CA975F7CB7BF4B /* Base */ = {
+		62C7B2064356D4DB8C0698D2E9075BF8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				605B1083FF1C64A1453DD413273A9E74 /* attributes.h */,
-				BB3E37F075164F7BAD0191A515567CD4 /* documents.h */,
-				63B64ED7DC722FD8A34507FE8B1CD489 /* exslt.h */,
-				F4F65DC389AF4079CF651E213EF1F77B /* exsltconfig.h */,
-				C4CD24ADD039716CD124E8571C0E0246 /* exsltexports.h */,
-				F4B0B553AD5290589D691FB2168D257C /* extensions.h */,
-				9A4477CEAA023384434433CB449C3CE2 /* extra.h */,
-				79A5D74C6A260D9864BC6CE7C6F523BB /* functions.h */,
-				BCB06400A82CB686D1739313EEB22629 /* imports.h */,
-				28348E9167AA0BC677AD9BC2E9BFF235 /* keys.h */,
-				78DFFD8A1B60317637B02301D19E7E3A /* libexslt.h */,
-				3F0472F1450A519964FD46AA0C9922F2 /* libxslt.h */,
-				109DF7E132AFF6C0801A16E60921806A /* namespaces.h */,
-				31BB36D18569654AB02D95DC73F521CD /* numbersInternals.h */,
-				73278A45925B3C318B884AD829D13D5A /* pattern.h */,
-				78CBA75DBBE7204D7F12024DA085122A /* preproc.h */,
-				A0B830E318B11601943BA97431C127DC /* security.h */,
-				4EB3F200990C57FF064E829905CE85FF /* SkyModelAdapter.h */,
-				D498091B05D10CC50BA6B8A645174108 /* SkyScraper.h */,
-				27F9D79360C90C2119C4A8CB3E204744 /* SkyXSLTParams.h */,
-				1F9EDF7551E089AB5825B30F2DA07432 /* SkyXSLTParams.m */,
-				993BCFB6EA17F3AC83D817874CA8D73F /* SkyXSLTransformation.h */,
-				7FB894CE9D866D71929B6620BDE9136B /* SkyXSLTransformation.m */,
-				93CA3A975D1C1526B0E26EB3EF64E77C /* templates.h */,
-				BD81BF768DE13D3507748A262167DD76 /* transform.h */,
-				0D54A803DB3DB8FFBB24A61E0EA1E38B /* trio.h */,
-				470D62DAFE37FDB8B3E2014EF47C8D1B /* triodef.h */,
-				D268BD2EA177DF98D02ED00130DCAF3C /* variables.h */,
-				564A88282FA81A0D06237EAFC7165BA8 /* xslt.h */,
-				21A000951D883707B8475865F369C876 /* xsltconfig.h */,
-				54075CDA779BA34A3FD8284CEC7E8E7C /* xsltexports.h */,
-				81A4767A33880FA5672FFB81595A0B10 /* xsltInternals.h */,
-				E4F7687FCACF1D9D2591B43FCF6CDD99 /* xsltlocale.h */,
-				1EFD6311090B1510C163A55EF7729FBD /* xsltutils.h */,
-				8A264D6410857C3D875CCA3A6A4A640B /* Frameworks */,
+				BFAE6F193F6C5802DD74562C8555A00A /* libxslt-with-plugins.a */,
 			);
-			name = Base;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		645B77D54DB507A02BDA48A3CA5A483B /* SwiftyJSON */ = {
@@ -586,18 +568,14 @@
 			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
-		72A00271AF043B599877876E7ED14F6B /* Support Files */ = {
+		6D9BC6B2A0197C6330B4D7B959FFEFAC /* Mantle */ = {
 			isa = PBXGroup;
 			children = (
-				7717CC05E1FD10D94D52D97B979F8B48 /* Info.plist */,
-				3C6C0F8898B9C0435115A15DAE720E2F /* SkyScraper.modulemap */,
-				8270A54687BDEBD331B87D54174E80C9 /* SkyScraper.xcconfig */,
-				F0920D5AB126EC0149B9A115A573E813 /* SkyScraper-dummy.m */,
-				C480A65023DDDA6E9643079703B4A556 /* SkyScraper-prefix.pch */,
-				C2B9E288BECD50686868BFF410C5A025 /* SkyScraper-umbrella.h */,
+				CB15F54FEA3FDAEBA05370E59045B6F7 /* SkyMantleModelAdapter.h */,
+				440DF287B0339D8A8878BC23E49A8B55 /* SkyMantleModelAdapter.m */,
+				1B07366E252ADF94C4C1754CF7C2DAD4 /* SkyScraper+Mantle.h */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SkyScraper";
+			name = Mantle;
 			sourceTree = "<group>";
 		};
 		74EFA0A799D33EBCC5A88577C5C2C27D /* extobjc */ = {
@@ -613,6 +591,20 @@
 			name = extobjc;
 			sourceTree = "<group>";
 		};
+		75ADF73C885F109652A893643454C2C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B272173F08CAD02564F75737F71F7123 /* Info.plist */,
+				AF1B8687A12FBF9C2B79F9CB19AA9CAC /* SkyScraper.modulemap */,
+				C1FDA0D20B208A847FFE1A64904C3A17 /* SkyScraper.xcconfig */,
+				E22866583A99CB35045E8F2774542189 /* SkyScraper-dummy.m */,
+				F9D4C4DBF2FB5AE2D7B5933F4630C856 /* SkyScraper-prefix.pch */,
+				6AF9291184EB7380DD8CBBE088EB27F3 /* SkyScraper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SkyScraper";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -624,12 +616,46 @@
 			);
 			sourceTree = "<group>";
 		};
-		8A264D6410857C3D875CCA3A6A4A640B /* Frameworks */ = {
+		81CA25930D62465DD24E30C5D4141352 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				FBBA30086145C5142BFC14BA8F982B49 /* libxslt-with-plugins.a */,
+				6148747FE3ABB2E808C145AC6DA9CAB3 /* attributes.h */,
+				3CA2B497E7D8C2B94B3265CA5D37CF37 /* documents.h */,
+				D426D88B6018A70D39CDF570156460FD /* exslt.h */,
+				4F544126157431B9FB17E37C1BB1068C /* exsltconfig.h */,
+				39BA87936E6E711619B699C7D4C89391 /* exsltexports.h */,
+				40285A2876766EA595785CA63FD5F92D /* extensions.h */,
+				1AD271A43BD762B762062D0CE73BF454 /* extra.h */,
+				6CB915ED607FBBC852ED0798ECCA8495 /* functions.h */,
+				042480E882524596DC12E07F515803DB /* imports.h */,
+				6E0322CB9C3DB2F84EAF6DD927EB0D07 /* keys.h */,
+				AE05C5B3C726C6FE1DD2C32A256F16D1 /* libexslt.h */,
+				FC94FDD6DDD3F4D01D988EB764B873D8 /* libxslt.h */,
+				A1D8E28AB7EA2A095A6FD25A6CBFD203 /* namespaces.h */,
+				1667E97C71E0E6C7B4E40A90E60AFF4E /* numbersInternals.h */,
+				D3CEF50D67FAA6418FB390A87BB5BA64 /* pattern.h */,
+				CDFCBC177E31C5786A13722D6DD75863 /* preproc.h */,
+				ADD76473499523A2605F948468DB5C00 /* security.h */,
+				9684764202A4679803C1650346F2D25D /* SkyModelAdapter.h */,
+				C7AC112318A2869A3C91A12BF14E401A /* SkyScraper.h */,
+				B32181EC3CCB515C5F76E5D640DA6F3A /* SkyXSLTParams.h */,
+				A25FFFF4141FB091FE24ADE8D89E5D8C /* SkyXSLTParams.m */,
+				E3C7C89E705A9AE6DA88464EEC097927 /* SkyXSLTransformation.h */,
+				5CEAEA599D9B2269382D43BA141F7ACB /* SkyXSLTransformation.m */,
+				A86C0B8DF5913A9D7DF199B6D552586A /* templates.h */,
+				82B600A4D590636A3AAC2BC67C9FDB40 /* transform.h */,
+				0590D819940DC448E843731D3506AD1B /* trio.h */,
+				3C45DD9D09B3BFC412FA24C63E794A5C /* triodef.h */,
+				736E2D4511676FF2A8A090FA5280E73E /* variables.h */,
+				A211242B9E856BA496C312487EBB434C /* xslt.h */,
+				BD73CC6B1521AD2E19C3B29EE2C82B33 /* xsltconfig.h */,
+				AF71E4A24C43E43AD099B7CD3FD6E50A /* xsltexports.h */,
+				68C1C54659E9DF8DDEB9D33B01519C20 /* xsltInternals.h */,
+				F677E4043F57D9CF4B893662162ADCA5 /* xsltlocale.h */,
+				BEF9520BAB849B933A6D98EC2F1A72A9 /* xsltutils.h */,
+				62C7B2064356D4DB8C0698D2E9075BF8 /* Frameworks */,
 			);
-			name = Frameworks;
+			name = Base;
 			sourceTree = "<group>";
 		};
 		A2661D4644D4468DFA42A6F1A3A2D2AE /* AFNetworking */ = {
@@ -801,26 +827,6 @@
 			path = "Target Support Files/Pods-SwiftySkyTests";
 			sourceTree = "<group>";
 		};
-		DC5FD8AAE221D2AD086A49233EF97229 /* Mantle */ = {
-			isa = PBXGroup;
-			children = (
-				4A56CDAB3E1F50B207D2697DEB7D4642 /* SkyMantleModelAdapter.h */,
-				60521471D1B1EC4363406915BE68617A /* SkyMantleModelAdapter.m */,
-			);
-			name = Mantle;
-			sourceTree = "<group>";
-		};
-		E4E6DADD9164B0A7DD0B94F655BDE6B5 /* SkyScraper */ = {
-			isa = PBXGroup;
-			children = (
-				066E513B2215F9E150F9166581225963 /* AFNetworking2 */,
-				5DDA2580D4ED5739E1CA975F7CB7BF4B /* Base */,
-				DC5FD8AAE221D2AD086A49233EF97229 /* Mantle */,
-				72A00271AF043B599877876E7ED14F6B /* Support Files */,
-			);
-			path = SkyScraper;
-			sourceTree = "<group>";
-		};
 		ED7A5AB6645D07A329AA115F79E22F85 /* Mantle */ = {
 			isa = PBXGroup;
 			children = (
@@ -878,49 +884,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71D1BFF4555B9D7733EB3794DCD4419E /* Headers */ = {
+		8473383913B74F21EDE318223DB30124 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D07706D3E68A2C2D39BD4F0D1CB297C6 /* attributes.h in Headers */,
-				1D537B1187178333CB7C46293EFB5F55 /* documents.h in Headers */,
-				BCA12C6FB8C6A49F9F75150549FA41E9 /* exslt.h in Headers */,
-				45331AFE4AAB0F1B0BACEBBF41AF2E74 /* exsltconfig.h in Headers */,
-				80CDAE9D114796C7914C5EF5D7F07D03 /* exsltexports.h in Headers */,
-				D590902FDB9CCFE3FE9050B5BE53E542 /* extensions.h in Headers */,
-				02D0D9B2F29AD9538187FF4CB3C41A48 /* extra.h in Headers */,
-				D8AD9045BF3F9401F73BCC1D77CB9AB9 /* functions.h in Headers */,
-				F01F8FE43787DE0D4D8663346018FC0F /* imports.h in Headers */,
-				AB4F56D580FAA5CCAE720C62B7B47578 /* keys.h in Headers */,
-				C2D13ACCBF1A3EC566FDB939ACFD8DEB /* libexslt.h in Headers */,
-				9E4B197965E4D2CBDA015EA75F256C33 /* libxslt.h in Headers */,
-				C57E7597D39FC99C0606B81E50D67734 /* namespaces.h in Headers */,
-				A4CF2F457B7B62FF4EA7B38E97452F65 /* numbersInternals.h in Headers */,
-				7279D2E7B1604EB8D0CC19F03DB2D762 /* pattern.h in Headers */,
-				E7707095BD4AE44298D8FF4AE94C699B /* preproc.h in Headers */,
-				42338279B2121A8844456C46C6302F4C /* security.h in Headers */,
-				84B777BF5FBFCD39F9952A44C494CFDF /* SkyHTMLResponseSerializer.h in Headers */,
-				0AABB6341870F4EAB746E912E56845F3 /* SkyJSONResponseSerializer.h in Headers */,
-				8E824C4F7DCD08EB64282ED2F90B21A2 /* SkyMantleModelAdapter.h in Headers */,
-				9F9D7C6FECCD7645DAA0EB57EEF213C8 /* SkyModelAdapter.h in Headers */,
-				13A0AD66B02C906ED7A8632CC9893DFC /* SkyResponseSerializer+Protected.h in Headers */,
-				8DD3DE6912D39809EAB418B272901338 /* SkyResponseSerializer.h in Headers */,
-				C9D6512B515119375158181ACAB82136 /* SkyScraper-umbrella.h in Headers */,
-				71841BD9987C771C241CE0D24E5218B5 /* SkyScraper.h in Headers */,
-				E659ECB431A35CC47B056589FCE1F5DC /* SkyXMLResponseSerializer.h in Headers */,
-				709AC14374E3E78ECC1CDB75532F2715 /* SkyXSLTParams.h in Headers */,
-				00B0A7C87F93F483B07F699076684276 /* SkyXSLTransformation.h in Headers */,
-				18F2F242A55547AEBD072A48A4F7E2C8 /* templates.h in Headers */,
-				CCCDAFE405EA994DFAB35DBA86BAEA0F /* transform.h in Headers */,
-				3E021CACB7BA1CB926D4BD5F0AC95F52 /* trio.h in Headers */,
-				53701217925FAE3BE14ADCA2AE070698 /* triodef.h in Headers */,
-				4C011514B3D9A3CD7D0DE0BC12168BBB /* variables.h in Headers */,
-				17B725442545074DFA0B043C1EA2693A /* xslt.h in Headers */,
-				B9C7902F365745CE709A88B1BC810EFD /* xsltconfig.h in Headers */,
-				30E98A9545A6229A3CD7A535207217BF /* xsltexports.h in Headers */,
-				998BD2F25D6C416F23FFCB18A5C03E6B /* xsltInternals.h in Headers */,
-				DF47D2234C45CE344DC68163B02E5501 /* xsltlocale.h in Headers */,
-				DC774BCE8F498064954C02E6A43302DE /* xsltutils.h in Headers */,
+				6F60E13C33EF7C84446DE38E6E56FEAF /* attributes.h in Headers */,
+				A854494BCD354F9BF2D1EAAE13E3E537 /* documents.h in Headers */,
+				249F8D2AFFB62A8A31782416565EA64A /* exslt.h in Headers */,
+				9F68FA8EA0E56EBE66840B2E833282F4 /* exsltconfig.h in Headers */,
+				3D454A67199D147A7906283A565670B5 /* exsltexports.h in Headers */,
+				3D89296BBFD544128F881B157FCC07C4 /* extensions.h in Headers */,
+				6D12D4E9BE9A5A414F38C8A1938B4CBB /* extra.h in Headers */,
+				D8035299CCA575DF312DDD3B1DA4E900 /* functions.h in Headers */,
+				DCD697078E8D606F40C3F6B1AE59BD8A /* imports.h in Headers */,
+				84DE67744FAA6A5956E482417B136EBC /* keys.h in Headers */,
+				8B4DF7F01DD331E071CFDA6EF6D10EDD /* libexslt.h in Headers */,
+				05BA1C48466130DBD1A58D22732E00B0 /* libxslt.h in Headers */,
+				9F381B72BA7B73EE3A88F3202E1457BB /* namespaces.h in Headers */,
+				00DE9F3CE1A7241FBB2F4094C5C0A782 /* numbersInternals.h in Headers */,
+				124566996CB678741CD6E9E93870542E /* pattern.h in Headers */,
+				7ED19F6586C3C455A4E4E273729F8CA0 /* preproc.h in Headers */,
+				D5B29902A5104C9BDD0FEF6C18AAF3E3 /* security.h in Headers */,
+				70BE863A0CD2E55AF9518B76C8D5D9EE /* SkyHTMLResponseSerializer.h in Headers */,
+				3FE96BE4CE8776C3A6C46668C06627DC /* SkyJSONResponseSerializer.h in Headers */,
+				D415855205E821981EB9878B50A08945 /* SkyMantleModelAdapter.h in Headers */,
+				F7C090EDB2587ABD9A0AC5E26DDFA20A /* SkyModelAdapter.h in Headers */,
+				BC7E2E9E98CAC743FE8A3C3EF22A4AF2 /* SkyResponseSerializer+Protected.h in Headers */,
+				710C3AE58947AFB9BF8FAD531344A8E3 /* SkyResponseSerializer.h in Headers */,
+				45B81F3A692486559C0249A56329997B /* SkyScraper+AFNetworking.h in Headers */,
+				F77FA5858F4FEC879EAF5BB1FCF45CA4 /* SkyScraper+Mantle.h in Headers */,
+				A9A7EFCF7347FE7C538DB9C1DEA89A6B /* SkyScraper-umbrella.h in Headers */,
+				035CB94F73CE0FA6F1E15A1997F8A4E6 /* SkyScraper.h in Headers */,
+				A8139528203B34153A56D5CC06CE6BF4 /* SkyXMLResponseSerializer.h in Headers */,
+				D130B5CA90C1FB84FA8BEC0F1858067D /* SkyXSLTParams.h in Headers */,
+				333C2421BD65D8B56A4E0D5CC3E2A178 /* SkyXSLTransformation.h in Headers */,
+				1EB3D02042F2D23F50D61FE1B1C85ED2 /* templates.h in Headers */,
+				E3F2DBFD5D32B3980942BECDE033435A /* transform.h in Headers */,
+				55706835CA6DE602202B9482A2CD3DBA /* trio.h in Headers */,
+				D324E826B456E819AA7AFD710D26A143 /* triodef.h in Headers */,
+				522C9E774A445DAB3F4A7500545150F1 /* variables.h in Headers */,
+				7AF71B2F5F3EA15D9C6A55977C27FD49 /* xslt.h in Headers */,
+				69415C2F9DB5835C5B0EAA9E8EAAACA2 /* xsltconfig.h in Headers */,
+				BDCD36DF206C525F3ECE2F845464EF61 /* xsltexports.h in Headers */,
+				3FBCED4C765D8C763F77AC2B59EBE6EC /* xsltInternals.h in Headers */,
+				E9A67DF79FB9B81F4E1BB11DB2CDA1E1 /* xsltlocale.h in Headers */,
+				1EE7E59A0E38FA64C6B181B3E67020ED /* xsltutils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1089,7 +1097,7 @@
 			buildPhases = (
 				92CC8F61C344A526523C53E6FD8ADD2D /* Sources */,
 				9109A5F7CD7460439C6FE4D1E493997D /* Frameworks */,
-				71D1BFF4555B9D7733EB3794DCD4419E /* Headers */,
+				8473383913B74F21EDE318223DB30124 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -1459,7 +1467,7 @@
 		};
 		7CEF3BACBA88E02290F0C3565EF524A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8270A54687BDEBD331B87D54174E80C9 /* SkyScraper.xcconfig */;
+			baseConfigurationReference = C1FDA0D20B208A847FFE1A64904C3A17 /* SkyScraper.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1649,7 +1657,7 @@
 		};
 		D71EFD67852CE8C86E8BF640CB90BB00 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8270A54687BDEBD331B87D54174E80C9 /* SkyScraper.xcconfig */;
+			baseConfigurationReference = C1FDA0D20B208A847FFE1A64904C3A17 /* SkyScraper.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;

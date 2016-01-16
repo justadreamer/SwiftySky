@@ -23,16 +23,16 @@ PODS:
   - Mantle (2.0.6):
     - Mantle/extobjc (= 2.0.6)
   - Mantle/extobjc (2.0.6)
-  - SkyScraper (0.33):
-    - SkyScraper/All (= 0.33)
-  - SkyScraper/AFNetworking2 (0.33):
+  - SkyScraper (0.35):
+    - SkyScraper/All (= 0.35)
+  - SkyScraper/AFNetworking2 (0.35):
     - AFNetworking (~> 2.6.3)
     - SkyScraper/Base
-  - SkyScraper/All (0.33):
+  - SkyScraper/All (0.35):
     - SkyScraper/AFNetworking2
     - SkyScraper/Mantle
-  - SkyScraper/Base (0.33)
-  - SkyScraper/Mantle (0.33):
+  - SkyScraper/Base (0.35)
+  - SkyScraper/Mantle (0.35):
     - Mantle
     - SkyScraper/Base
   - SwiftyJSON (2.3.2)
@@ -47,13 +47,13 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   SkyScraper:
-    :commit: a94ae3ab801a1b4571879e24448b97aa150e8454
+    :commit: 903f9cbaa00f1a297b4daaeba121282d684fdd98
     :git: git@github.com:justadreamer/SkyScraper.git
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   Mantle: 299966b00759634931699f69cb6a30b9239b944d
-  SkyScraper: 46a44d27d66726c6fb0af39f76765a75f3456d8f
+  SkyScraper: 2eb7dbb09de93a6bceb9e2c926ff21423c35d1f6
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
 
 COCOAPODS: 0.39.0
