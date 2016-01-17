@@ -16,7 +16,7 @@ extension-element-prefixes="str">
     <xsl:for-each select="//li[@class='visual-item']">
     {
       "title":"<xsl:call-template name="tpl_sanitize"><xsl:with-param name="text" select=".//a[2]" /></xsl:call-template>",
-      "image_url":"<xsl:value-of select=".//img/@src"/>"
+      "image_url":"<xsl:value-of select=".//img[contains(@class,'visual-thumb')]/@data-src"/>"
     }<xsl:if test="position()!=last()">,</xsl:if>
     </xsl:for-each>
     ]
