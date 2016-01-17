@@ -84,14 +84,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-SwiftySky/AFNetworking.framework"
-  install_framework "Pods-SwiftySky/Mantle.framework"
   install_framework "Pods-SwiftySky/SkyScraper.framework"
   install_framework "Pods-SwiftySky/SwiftyJSON.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-SwiftySky/AFNetworking.framework"
-  install_framework "Pods-SwiftySky/Mantle.framework"
   install_framework "Pods-SwiftySky/SkyScraper.framework"
   install_framework "Pods-SwiftySky/SwiftyJSON.framework"
 fi
