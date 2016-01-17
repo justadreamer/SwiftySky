@@ -3,12 +3,15 @@
 # Uncomment this line if you're using Swift
 use_frameworks!
 
-target 'SwiftySky' do
-pod 'SkyScraper', :git => "git@github.com:justadreamer/SkyScraper.git"
+def common
+pod 'SkyScraper/Base', :git => "git@github.com:justadreamer/SkyScraper.git"
 pod 'SwiftyJSON', '~> 2.3'
 end
 
+target 'SwiftySky' do
+common
+end
+
 target 'SwiftySkyTests' do
-pod 'SkyScraper', :git => "git@github.com:justadreamer/SkyScraper.git"
-pod 'SwiftyJSON', '~> 2.3'
+common
 end
