@@ -9,6 +9,7 @@
 import XCTest
 @testable import SwiftySky
 import SkyScraper
+import SwiftyJSON
 
 /*
 xsltproc --html -xincludestyle -xinclude SwiftySky/XSLT/main.xsl SwiftySkyTests/fandango.html | jsonlint
@@ -39,9 +40,14 @@ class SwiftySkyTests: XCTestCase {
         XCTAssertTrue(html!.length>0)
         
         do {
-            let json : NSDictionary = try t.JSONObjectFromHTMLData(html, withParams:[:]) as! NSDictionary
-            XCTAssertNotNil(json)
-            XCTAssertTrue(json.count>0)
+            let jsonObject : NSDictionary = try t.JSONObjectFromHTMLData(html, withParams:[:]) as! NSDictionary
+            XCTAssertNotNil(jsonObject)
+            XCTAssertTrue(jsonObject.count>0)
+            
+            let json = JSON(jsonObject)
+            XCTAssertEqual(json["entries"][0]["title"].string!, "Star Wars: The Force Awakens")
+            XCTAssertEqual(json["entries"].count, 8)
+            XCTAssertEqual(json["entries"][1]["image_url"], "http://images.fandango.com/r98.9/ImageRenderer/131/200/redesign/static/img/default_poster.png/0/images/masterrepository/fandango/185166/hatefuleight_sm.jpg")
         } catch {
             XCTFail("xslt parsing failed with error: \(error)")
         }
