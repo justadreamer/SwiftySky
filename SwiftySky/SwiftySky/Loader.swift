@@ -14,9 +14,7 @@ class Loader {
     var movies : [Movie]? {
         didSet {
             guard self.movies != nil else { return }
-            if let callback = self.callback {
-                callback()
-            }
+            notify()
         }
     }
 
@@ -46,19 +44,31 @@ class Loader {
                         let jsonObject = try t.JSONObjectFromXMLData(responseData, withParams: [:])
                         let json = JSON(jsonObject)
                         if let entries = json["entries"].array {
-                            dispatch_async(dispatch_get_main_queue(), { () -> Void in
-                                self.movies = Movie.array(from: entries)
-                            })
+                            let movies = Movie.array(from: entries)
+                            dispatch_async(dispatch_get_main_queue()) {
+                                self.movies = movies
+                            }
                         }
                     } catch {
                         print("error:\(error)")
+                        self.notify()
                     }
                 
                 case .None:
                     print("error loading: \(error)")
-                
+                    self.notify()
             }
         }.resume()
     }
     
+    /**
+     Is called implicitly when the movies list is updated.  
+     Call explicitly in the event of error.
+     */
+
+    func notify() {
+        if let callback = self.callback {
+            callback()
+        }
+    }
 }
