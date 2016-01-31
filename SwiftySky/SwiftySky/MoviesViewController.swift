@@ -9,12 +9,8 @@
 import UIKit
 
 class MoviesViewController: UITableViewController {
-    var loader : Loader!
-    var movies : [Movie]? {
-        get {
-            return loader?.movies
-        }
-    }
+    var loader : MoviesLoader!
+    var movies : [Movie]?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,8 +19,16 @@ class MoviesViewController: UITableViewController {
         refreshControl.addTarget(self, action: Selector("refresh"), forControlEvents: UIControlEvents.ValueChanged)
         self.refreshControl = refreshControl
         
-        self.loader = Loader {[weak self] in
+        self.loader = MoviesLoader {[weak self] result -> Void in
             if let strongSelf = self {
+                switch result {
+                    case .Movies(let movies):
+                        strongSelf.movies = movies
+                    case .Error(let message):
+                        let alert = UIAlertController(title: "Error", message: message, preferredStyle: UIAlertControllerStyle.Alert)
+                        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+                        strongSelf.presentViewController(alert, animated: true, completion: nil)
+                }
                 strongSelf.tableView.reloadData()
                 refreshControl.endRefreshing()
             }
