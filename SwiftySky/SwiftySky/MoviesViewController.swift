@@ -14,6 +14,8 @@ class MoviesViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.tableView.estimatedRowHeight = 104.0;
+        self.tableView.rowHeight = UITableViewAutomaticDimension;
         
         let refreshControl = UIRefreshControl()
         refreshControl.addTarget(self, action: Selector("refresh"), forControlEvents: UIControlEvents.ValueChanged)
@@ -29,8 +31,8 @@ class MoviesViewController: UITableViewController {
                         alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
                         strongSelf.presentViewController(alert, animated: true, completion: nil)
                 }
-                strongSelf.tableView.reloadData()
                 refreshControl.endRefreshing()
+                strongSelf.tableView.reloadData()
             }
         }
         

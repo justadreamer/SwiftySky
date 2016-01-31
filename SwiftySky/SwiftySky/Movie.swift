@@ -12,15 +12,6 @@ struct Movie {
     var title = ""
     var imageURL: NSURL?
     
-    init (dictionary: [String:String]) {
-        if let title = dictionary["title"] {
-            self.title = title
-        }
-        if let URLString = dictionary["imageURL"],
-            let imageURL = NSURL(string:URLString) {
-            self.imageURL = imageURL
-        }
-    }
 }
 
 extension Movie : CustomStringConvertible {

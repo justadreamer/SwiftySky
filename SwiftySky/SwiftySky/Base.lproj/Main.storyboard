@@ -10,38 +10,38 @@
         <scene sceneID="GIG-95-azL">
             <objects>
                 <tableViewController id="alD-jx-Ldb" customClass="MoviesViewController" customModule="SwiftySky" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="142" sectionHeaderHeight="28" sectionFooterHeight="28" id="Oqs-xq-1tw">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="181" sectionHeaderHeight="28" sectionFooterHeight="28" id="Oqs-xq-1tw">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MovieCell" rowHeight="142" id="MIH-Fi-3tY" customClass="MovieCell" customModule="SwiftySky" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="92" width="600" height="142"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MovieCell" rowHeight="130" id="MIH-Fi-3tY" customClass="MovieCell" customModule="SwiftySky" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="92" width="600" height="130"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MIH-Fi-3tY" id="8eq-6t-tzi">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="141.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="129.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCs-62-CM9">
-                                            <rect key="frame" x="106" y="8" width="42" height="20.5"/>
+                                            <rect key="frame" x="78" y="8" width="42" height="113.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Z5m-47-ozD">
-                                            <rect key="frame" x="8" y="13" width="90" height="125.5"/>
+                                            <rect key="frame" x="8" y="5" width="62" height="119.5"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="90" id="KXQ-Ft-bDQ"/>
-                                                <constraint firstAttribute="height" priority="999" constant="120" id="oVG-oP-mtI"/>
+                                                <constraint firstAttribute="width" constant="62" id="KXQ-Ft-bDQ"/>
+                                                <constraint firstAttribute="height" priority="999" constant="94" id="oVG-oP-mtI"/>
                                             </constraints>
                                         </imageView>
                                     </subviews>
                                     <constraints>
                                         <constraint firstAttribute="topMargin" secondItem="xCs-62-CM9" secondAttribute="top" id="5yw-iU-zuS"/>
-                                        <constraint firstItem="Z5m-47-ozD" firstAttribute="top" secondItem="8eq-6t-tzi" secondAttribute="topMargin" constant="5" id="9M4-QD-vsZ"/>
-                                        <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="xCs-62-CM9" secondAttribute="bottom" id="CAg-dR-7OQ"/>
+                                        <constraint firstItem="Z5m-47-ozD" firstAttribute="top" secondItem="8eq-6t-tzi" secondAttribute="top" constant="5" id="9M4-QD-vsZ"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="xCs-62-CM9" secondAttribute="bottom" id="CAg-dR-7OQ"/>
                                         <constraint firstItem="xCs-62-CM9" firstAttribute="leading" secondItem="Z5m-47-ozD" secondAttribute="trailing" constant="8" id="TYm-o6-RXT"/>
-                                        <constraint firstItem="Z5m-47-ozD" firstAttribute="bottom" secondItem="8eq-6t-tzi" secondAttribute="bottomMargin" constant="5" id="ihA-1l-sHl"/>
+                                        <constraint firstItem="Z5m-47-ozD" firstAttribute="bottom" secondItem="8eq-6t-tzi" secondAttribute="bottom" constant="-5" id="ihA-1l-sHl"/>
                                         <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="xCs-62-CM9" secondAttribute="trailing" constant="5" id="uCa-zA-l9E"/>
                                         <constraint firstAttribute="leadingMargin" secondItem="Z5m-47-ozD" secondAttribute="leading" id="zqk-UC-pfI"/>
                                     </constraints>

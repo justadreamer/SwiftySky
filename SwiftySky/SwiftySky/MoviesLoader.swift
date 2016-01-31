@@ -16,22 +16,14 @@ enum MoviesLoaderResult {
 }
 
 class MoviesLoader {
-    var callback : (MoviesLoaderResult -> Void)?
-
-    func toMovie (entry: [String : String]) -> Movie {
-        return Movie(dictionary: entry)
-    }
-    
-    func toMovies(entries: [[String : String]]) -> [Movie] {
-        return entries.map(toMovie)
-    }
+    private var callback : (MoviesLoaderResult -> Void)?
 
     init (callback: MoviesLoaderResult -> Void) {
         self.callback = callback
     }
 
     func load() {
-        let URL = NSURL(string: "http://fandango.com")!
+        let URL = NSURL(string: "http://www.fandango.com")!
         let XSLTURL = NSBundle.mainBundle().URLForResource("XSLT/main", withExtension: "xsl")!
         let t = SkyXSLTransformation(XSLTURL: XSLTURL)!
         
@@ -60,11 +52,9 @@ class MoviesLoader {
      Call explicitly in the event of error.
      */
 
-    func notify(result: MoviesLoaderResult) {
+    private func notify(result: MoviesLoaderResult) {
         dispatch_async(dispatch_get_main_queue()) {
-            if let callback = self.callback {
-                callback(result)
-            }
+            self.callback?(result)
         }
     }
 }

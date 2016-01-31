@@ -12,7 +12,7 @@ import SwiftyJSON
 extension Movie : SwiftyJSONConstructible {
     init(fromJSON json:JSON) {
         title = json["title"].string ?? ""
-        imageURL = NSURL(string:json["imageURL"].string ?? "")
+        imageURL = NSURL(string:json["image_url"].string ?? "")
     }
 
     static func array(from jsonArray:[JSON]) -> [Movie] {
